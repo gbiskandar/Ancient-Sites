@@ -1,0 +1,5028 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4fddf174bf0dd9ac1b90ba35618ad7de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4fddf174bf0dd9ac1b90ba35618ad7de" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4fddf174bf0dd9ac1b90ba35618ad7de = L.map(
+                "map_4fddf174bf0dd9ac1b90ba35618ad7de",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74349651fb114c9fce0da6f9c08c28ae = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+            var marker_d6b0cd0ec1fa514df4c543bb6dd565db = L.marker(
+                [22.3460086, 31.6156242],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e70831c1a079696a642488d41b5cf3d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ea5276c6183fcfb1c4a32223c7138cf = $(`<div id="html_0ea5276c6183fcfb1c4a32223c7138cf" style="width: 100.0%; height: 100.0%;">Rock cut Temple</div>`)[0];
+                popup_e70831c1a079696a642488d41b5cf3d0.setContent(html_0ea5276c6183fcfb1c4a32223c7138cf);
+            
+        
+
+        marker_d6b0cd0ec1fa514df4c543bb6dd565db.bindPopup(popup_e70831c1a079696a642488d41b5cf3d0)
+        ;
+
+        
+    
+    
+            marker_d6b0cd0ec1fa514df4c543bb6dd565db.bindTooltip(
+                `<div>
+                     Abu Simbel, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca5ba0fc8c290bb331a1dae775dd1d9a = L.marker(
+                [26.183444, 31.9226391],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_4f031d7357676f496ff855838a01414f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d6a032df6b769752f26e8210031dc32 = $(`<div id="html_4d6a032df6b769752f26e8210031dc32" style="width: 100.0%; height: 100.0%;">Temple Complex</div>`)[0];
+                popup_4f031d7357676f496ff855838a01414f.setContent(html_4d6a032df6b769752f26e8210031dc32);
+            
+        
+
+        marker_ca5ba0fc8c290bb331a1dae775dd1d9a.bindPopup(popup_4f031d7357676f496ff855838a01414f)
+        ;
+
+        
+    
+    
+            marker_ca5ba0fc8c290bb331a1dae775dd1d9a.bindTooltip(
+                `<div>
+                     Abydoss, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43d77b57b99ff7ddbb4221952d47e6d7 = L.marker(
+                [-25.5946597, 30.2887868],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_109b19a383320778fd55d7314e4dab3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebc83f31d017996dcbaddbadcf018cac = $(`<div id="html_ebc83f31d017996dcbaddbadcf018cac" style="width: 100.0%; height: 100.0%;">Stone Setting</div>`)[0];
+                popup_109b19a383320778fd55d7314e4dab3e.setContent(html_ebc83f31d017996dcbaddbadcf018cac);
+            
+        
+
+        marker_43d77b57b99ff7ddbb4221952d47e6d7.bindPopup(popup_109b19a383320778fd55d7314e4dab3e)
+        ;
+
+        
+    
+    
+            marker_43d77b57b99ff7ddbb4221952d47e6d7.bindTooltip(
+                `<div>
+                     Adam's Calendar, Africa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4a4b93593f2598a38e1ec7da37e522d = L.marker(
+                [52.3555177, -1.1743197],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_bb4a3b5f273c5cb4c371b8cb547d3e11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e488383a823425af8d7a82e1bf6bc124 = $(`<div id="html_e488383a823425af8d7a82e1bf6bc124" style="width: 100.0%; height: 100.0%;"></div>`)[0];
+                popup_bb4a3b5f273c5cb4c371b8cb547d3e11.setContent(html_e488383a823425af8d7a82e1bf6bc124);
+            
+        
+
+        marker_f4a4b93593f2598a38e1ec7da37e522d.bindPopup(popup_bb4a3b5f273c5cb4c371b8cb547d3e11)
+        ;
+
+        
+    
+    
+            marker_f4a4b93593f2598a38e1ec7da37e522d.bindTooltip(
+                `<div>
+                     Adam's Grave, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dbf8c9be62e101f8764c57ad50faffe = L.marker(
+                [53.16887699999999, -1.761412],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_22a420f4d0b3a4285a553290fe3a7c43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7547e25272bcd57f2c6be72f9833db10 = $(`<div id="html_7547e25272bcd57f2c6be72f9833db10" style="width: 100.0%; height: 100.0%;">Henge-Circle</div>`)[0];
+                popup_22a420f4d0b3a4285a553290fe3a7c43.setContent(html_7547e25272bcd57f2c6be72f9833db10);
+            
+        
+
+        marker_9dbf8c9be62e101f8764c57ad50faffe.bindPopup(popup_22a420f4d0b3a4285a553290fe3a7c43)
+        ;
+
+        
+    
+    
+            marker_9dbf8c9be62e101f8764c57ad50faffe.bindTooltip(
+                `<div>
+                     Arbor Low, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ce66d4f2c494855cc24d7c04b7393c4 = L.marker(
+                [38.5575125, -8.0612344],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_f0178e23460c79e8c732a81d01504237 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c08843c9155296489ff5f0e956c1eafb = $(`<div id="html_c08843c9155296489ff5f0e956c1eafb" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_f0178e23460c79e8c732a81d01504237.setContent(html_c08843c9155296489ff5f0e956c1eafb);
+            
+        
+
+        marker_9ce66d4f2c494855cc24d7c04b7393c4.bindPopup(popup_f0178e23460c79e8c732a81d01504237)
+        ;
+
+        
+    
+    
+            marker_9ce66d4f2c494855cc24d7c04b7393c4.bindTooltip(
+                `<div>
+                     Almendres, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1345296cd35355671ab5c2b2408282f1 = L.marker(
+                [43.377452, -4.122347],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_092fee3fb823399e9c53494289772d89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcc8fc1e34e94cc21ac3926c4fe14d04 = $(`<div id="html_bcc8fc1e34e94cc21ac3926c4fe14d04" style="width: 100.0%; height: 100.0%;">Magdalenian Cave-art</div>`)[0];
+                popup_092fee3fb823399e9c53494289772d89.setContent(html_bcc8fc1e34e94cc21ac3926c4fe14d04);
+            
+        
+
+        marker_1345296cd35355671ab5c2b2408282f1.bindPopup(popup_092fee3fb823399e9c53494289772d89)
+        ;
+
+        
+    
+    
+            marker_1345296cd35355671ab5c2b2408282f1.bindTooltip(
+                `<div>
+                     Altamira, Spain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52d467e918dbf3ea066abb79f26e4350 = L.marker(
+                [40.4423884, -7.8638978],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_c121d2a82a8a63d603c73b857b26b335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_394b19e80d717fc622e9c8d41a1e782e = $(`<div id="html_394b19e80d717fc622e9c8d41a1e782e" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_c121d2a82a8a63d603c73b857b26b335.setContent(html_394b19e80d717fc622e9c8d41a1e782e);
+            
+        
+
+        marker_52d467e918dbf3ea066abb79f26e4350.bindPopup(popup_c121d2a82a8a63d603c73b857b26b335)
+        ;
+
+        
+    
+    
+            marker_52d467e918dbf3ea066abb79f26e4350.bindTooltip(
+                `<div>
+                     Arcainha, anta, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4014223eab4ecd6541678ad1395e1868 = L.marker(
+                [52.6494788, 59.5720987],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_751738d9a01280e478ad2d61d9f0f9da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76918e6f63c933919056506e729e59c4 = $(`<div id="html_76918e6f63c933919056506e729e59c4" style="width: 100.0%; height: 100.0%;">Complex, Settlement</div>`)[0];
+                popup_751738d9a01280e478ad2d61d9f0f9da.setContent(html_76918e6f63c933919056506e729e59c4);
+            
+        
+
+        marker_4014223eab4ecd6541678ad1395e1868.bindPopup(popup_751738d9a01280e478ad2d61d9f0f9da)
+        ;
+
+        
+    
+    
+            marker_4014223eab4ecd6541678ad1395e1868.bindTooltip(
+                `<div>
+                     Arkaim, Russia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a55b98d0af96616ded3058b1aff6bcc2 = L.marker(
+                [38.3483702, 34.2301979],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_5a9084720d0c0a579f5fd6656032a93e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_611a885eaecdaedcb7fca89bf99aa90d = $(`<div id="html_611a885eaecdaedcb7fca89bf99aa90d" style="width: 100.0%; height: 100.0%;">Fortress, City</div>`)[0];
+                popup_5a9084720d0c0a579f5fd6656032a93e.setContent(html_611a885eaecdaedcb7fca89bf99aa90d);
+            
+        
+
+        marker_a55b98d0af96616ded3058b1aff6bcc2.bindPopup(popup_5a9084720d0c0a579f5fd6656032a93e)
+        ;
+
+        
+    
+    
+            marker_a55b98d0af96616ded3058b1aff6bcc2.bindTooltip(
+                `<div>
+                     Ashikli-Huyuk, Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc9564b8af21ac3b64c1a7d528709da6 = L.marker(
+                [-23.8634189, -69.1328491],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2576e7fff0ad013b57c6be27ea7b8d51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8391d1fffc6c72a757e12073a08cc793 = $(`<div id="html_8391d1fffc6c72a757e12073a08cc793" style="width: 100.0%; height: 100.0%;">Giant and Complex</div>`)[0];
+                popup_2576e7fff0ad013b57c6be27ea7b8d51.setContent(html_8391d1fffc6c72a757e12073a08cc793);
+            
+        
+
+        marker_cc9564b8af21ac3b64c1a7d528709da6.bindPopup(popup_2576e7fff0ad013b57c6be27ea7b8d51)
+        ;
+
+        
+    
+    
+            marker_cc9564b8af21ac3b64c1a7d528709da6.bindTooltip(
+                `<div>
+                     Atacama, Chile (Giant and Complex)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b243e43193b9dbf9f46d70f97119bd5 = L.marker(
+                [51.42945599999999, -1.853046],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_c9c3975b95dac85b297e03e54a20dcfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1e002e16f6d928141857de05038affa = $(`<div id="html_e1e002e16f6d928141857de05038affa" style="width: 100.0%; height: 100.0%;">Henge-Circle</div>`)[0];
+                popup_c9c3975b95dac85b297e03e54a20dcfb.setContent(html_e1e002e16f6d928141857de05038affa);
+            
+        
+
+        marker_7b243e43193b9dbf9f46d70f97119bd5.bindPopup(popup_c9c3975b95dac85b297e03e54a20dcfb)
+        ;
+
+        
+    
+    
+            marker_7b243e43193b9dbf9f46d70f97119bd5.bindTooltip(
+                `<div>
+                     Avebury, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8c1f59f7f22dad3dd7f819bb2b2ceb7 = L.marker(
+                [14.1340317, 38.7472905],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_830adc994e15342c28b430ecde5683c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2748a75d94ad753d18e3ab76afc7d53d = $(`<div id="html_2748a75d94ad753d18e3ab76afc7d53d" style="width: 100.0%; height: 100.0%;"></div>`)[0];
+                popup_830adc994e15342c28b430ecde5683c7.setContent(html_2748a75d94ad753d18e3ab76afc7d53d);
+            
+        
+
+        marker_b8c1f59f7f22dad3dd7f819bb2b2ceb7.bindPopup(popup_830adc994e15342c28b430ecde5683c7)
+        ;
+
+        
+    
+    
+            marker_b8c1f59f7f22dad3dd7f819bb2b2ceb7.bindTooltip(
+                `<div>
+                     Axum, Ethiopia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63908e76456bed93cfc612c08cc07a26 = L.marker(
+                [37.7412488, -25.6755944],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_199a94084b6ae29262d84d2fa8a4cf31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b0ab73ac86f2ef201f7a4dbe708e9a5 = $(`<div id="html_4b0ab73ac86f2ef201f7a4dbe708e9a5" style="width: 100.0%; height: 100.0%;">Cart-ruts, Hypogea</div>`)[0];
+                popup_199a94084b6ae29262d84d2fa8a4cf31.setContent(html_4b0ab73ac86f2ef201f7a4dbe708e9a5);
+            
+        
+
+        marker_63908e76456bed93cfc612c08cc07a26.bindPopup(popup_199a94084b6ae29262d84d2fa8a4cf31)
+        ;
+
+        
+    
+    
+            marker_63908e76456bed93cfc612c08cc07a26.bindTooltip(
+                `<div>
+                     Azores, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd783a8982018fd5af2c4eb1a9516103 = L.marker(
+                [34.0046888, 36.2110399],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_09b5523d97dc34c7fe53150e8846bd00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eaf8efe3af02b077b0b5a4a2967a3bd = $(`<div id="html_2eaf8efe3af02b077b0b5a4a2967a3bd" style="width: 100.0%; height: 100.0%;">Temple Complex</div>`)[0];
+                popup_09b5523d97dc34c7fe53150e8846bd00.setContent(html_2eaf8efe3af02b077b0b5a4a2967a3bd);
+            
+        
+
+        marker_cd783a8982018fd5af2c4eb1a9516103.bindPopup(popup_09b5523d97dc34c7fe53150e8846bd00)
+        ;
+
+        
+    
+    
+            marker_cd783a8982018fd5af2c4eb1a9516103.bindTooltip(
+                `<div>
+                     Ba'albek, Lebanon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6e9b7c06c7029855d25c1f077d650e3 = L.marker(
+                [47.243139, -0.09475],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_411ad4066a6134e14897b5ad4b0f4317 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a8664b393ef59d3795a9915a672b913 = $(`<div id="html_9a8664b393ef59d3795a9915a672b913" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_411ad4066a6134e14897b5ad4b0f4317.setContent(html_9a8664b393ef59d3795a9915a672b913);
+            
+        
+
+        marker_d6e9b7c06c7029855d25c1f077d650e3.bindPopup(popup_411ad4066a6134e14897b5ad4b0f4317)
+        ;
+
+        
+    
+    
+            marker_d6e9b7c06c7029855d25c1f077d650e3.bindTooltip(
+                `<div>
+                     Bagneux Dolmen, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_355bbaecf98b34c8379f2ded3ed25c2d = L.marker(
+                [56.22059600000001, -3.153336],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_3e79337f6c051ea15971a3c9aa67f474 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0d8cf7110a2fd36a2fafd1df63fc469 = $(`<div id="html_e0d8cf7110a2fd36a2fafd1df63fc469" style="width: 100.0%; height: 100.0%;">Henge-Circle</div>`)[0];
+                popup_3e79337f6c051ea15971a3c9aa67f474.setContent(html_e0d8cf7110a2fd36a2fafd1df63fc469);
+            
+        
+
+        marker_355bbaecf98b34c8379f2ded3ed25c2d.bindPopup(popup_3e79337f6c051ea15971a3c9aa67f474)
+        ;
+
+        
+    
+    
+            marker_355bbaecf98b34c8379f2ded3ed25c2d.bindTooltip(
+                `<div>
+                     Balfarg, Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77168aee093a6ed505b7ec036a05a146 = L.marker(
+                [54.8439334, -7.6112689],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e00fd880541990f50c262b8a6f6efd62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_325fda523634fa2b096d04d42a9062a3 = $(`<div id="html_325fda523634fa2b096d04d42a9062a3" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_e00fd880541990f50c262b8a6f6efd62.setContent(html_325fda523634fa2b096d04d42a9062a3);
+            
+        
+
+        marker_77168aee093a6ed505b7ec036a05a146.bindPopup(popup_e00fd880541990f50c262b8a6f6efd62)
+        ;
+
+        
+    
+    
+            marker_77168aee093a6ed505b7ec036a05a146.bindTooltip(
+                `<div>
+                     Beltany, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e178b722151886b4270296a9f54aa59 = L.marker(
+                [50.08983260000001, -5.6192923],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_157696ba4abf0b4690d6f3e41e9e9122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d65c88cc9a31003423cbf96f534607c7 = $(`<div id="html_d65c88cc9a31003423cbf96f534607c7" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_157696ba4abf0b4690d6f3e41e9e9122.setContent(html_d65c88cc9a31003423cbf96f534607c7);
+            
+        
+
+        marker_4e178b722151886b4270296a9f54aa59.bindPopup(popup_157696ba4abf0b4690d6f3e41e9e9122)
+        ;
+
+        
+    
+    
+            marker_4e178b722151886b4270296a9f54aa59.bindTooltip(
+                `<div>
+                     Boscawen Un, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bb6cf8728244c58e3d3d071d8725a1d = L.marker(
+                [53.56125221075239, -6.670193534924607],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_5976d8f2fa616f9d2ca0e15f88d1db12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a050315a6d43e37ceb80ae32d236f49 = $(`<div id="html_8a050315a6d43e37ceb80ae32d236f49" style="width: 100.0%; height: 100.0%;">Passage Mound Complex</div>`)[0];
+                popup_5976d8f2fa616f9d2ca0e15f88d1db12.setContent(html_8a050315a6d43e37ceb80ae32d236f49);
+            
+        
+
+        marker_6bb6cf8728244c58e3d3d071d8725a1d.bindPopup(popup_5976d8f2fa616f9d2ca0e15f88d1db12)
+        ;
+
+        
+    
+    
+            marker_6bb6cf8728244c58e3d3d071d8725a1d.bindTooltip(
+                `<div>
+                     Boyne Valley, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37c1b2bab66120ec7a1f3825e0ee90ce = L.marker(
+                [59.0014988, -3.2297777],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_0ef0d4b7d582f5fa0acaa578636cf33f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efe2e719c6b57a2945273422ee77240a = $(`<div id="html_efe2e719c6b57a2945273422ee77240a" style="width: 100.0%; height: 100.0%;">Henge-Circle</div>`)[0];
+                popup_0ef0d4b7d582f5fa0acaa578636cf33f.setContent(html_efe2e719c6b57a2945273422ee77240a);
+            
+        
+
+        marker_37c1b2bab66120ec7a1f3825e0ee90ce.bindPopup(popup_0ef0d4b7d582f5fa0acaa578636cf33f)
+        ;
+
+        
+    
+    
+            marker_37c1b2bab66120ec7a1f3825e0ee90ce.bindTooltip(
+                `<div>
+                     Brodgar, Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4616888c22607d80dd4854581177adc8 = L.marker(
+                [52.8374752, -6.8811309],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_9a8ab992e6b1e08b4d8be00c49eabd0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d147493d6cebefc35cba0c00cb9581e = $(`<div id="html_7d147493d6cebefc35cba0c00cb9581e" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_9a8ab992e6b1e08b4d8be00c49eabd0e.setContent(html_7d147493d6cebefc35cba0c00cb9581e);
+            
+        
+
+        marker_4616888c22607d80dd4854581177adc8.bindPopup(popup_9a8ab992e6b1e08b4d8be00c49eabd0e)
+        ;
+
+        
+    
+    
+            marker_4616888c22607d80dd4854581177adc8.bindTooltip(
+                `<div>
+                     Browne's Hill, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd4c87f322be57b60df1222f78c89ca1 = L.marker(
+                [52.8982125, -4.011364299999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_9442283f72f6b07b73dee3e7c13f7d36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_126bf13d7bc857b049d67a5f8ec0a997 = $(`<div id="html_126bf13d7bc857b049d67a5f8ec0a997" style="width: 100.0%; height: 100.0%;">Cairn, Circle</div>`)[0];
+                popup_9442283f72f6b07b73dee3e7c13f7d36.setContent(html_126bf13d7bc857b049d67a5f8ec0a997);
+            
+        
+
+        marker_cd4c87f322be57b60df1222f78c89ca1.bindPopup(popup_9442283f72f6b07b73dee3e7c13f7d36)
+        ;
+
+        
+    
+    
+            marker_cd4c87f322be57b60df1222f78c89ca1.bindTooltip(
+                `<div>
+                     Bryn Cader Faner, Wales       (Cairn, Circle)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbd94ed86b65bb2d1ca03dad10715e04 = L.marker(
+                [53.2077519, -4.2361267],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_80e26bdd803f53a96022b276233c5fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7797875d4b7aed7fc75d51e08776d491 = $(`<div id="html_7797875d4b7aed7fc75d51e08776d491" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_80e26bdd803f53a96022b276233c5fb9.setContent(html_7797875d4b7aed7fc75d51e08776d491);
+            
+        
+
+        marker_cbd94ed86b65bb2d1ca03dad10715e04.bindPopup(popup_80e26bdd803f53a96022b276233c5fb9)
+        ;
+
+        
+    
+    
+            marker_cbd94ed86b65bb2d1ca03dad10715e04.bindTooltip(
+                `<div>
+                     Bryn Celli Ddu, Wales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00053893490de4971fdb2e262f49fd9b = L.marker(
+                [35.9483715, 14.4109558],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_797b80dbc2c4eccfecb1df09803edaa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31984e6bb62c1217a6e4620302a3f52f = $(`<div id="html_31984e6bb62c1217a6e4620302a3f52f" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_797b80dbc2c4eccfecb1df09803edaa2.setContent(html_31984e6bb62c1217a6e4620302a3f52f);
+            
+        
+
+        marker_00053893490de4971fdb2e262f49fd9b.bindPopup(popup_797b80dbc2c4eccfecb1df09803edaa2)
+        ;
+
+        
+    
+    
+            marker_00053893490de4971fdb2e262f49fd9b.bindTooltip(
+                `<div>
+                     Bugibba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fca985e7d4225d6cecf2d8fcf792555 = L.marker(
+                [38.4622421, -7.382897600000001],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_0743f534b39834908e7477d92d367cba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f9e825cc3eb0314ad5665f069527ca2 = $(`<div id="html_5f9e825cc3eb0314ad5665f069527ca2" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+                popup_0743f534b39834908e7477d92d367cba.setContent(html_5f9e825cc3eb0314ad5665f069527ca2);
+            
+        
+
+        marker_4fca985e7d4225d6cecf2d8fcf792555.bindPopup(popup_0743f534b39834908e7477d92d367cba)
+        ;
+
+        
+    
+    
+            marker_4fca985e7d4225d6cecf2d8fcf792555.bindTooltip(
+                `<div>
+                     Bulhoa, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7ff04dfd69115cc9ddc1d85474dfc38 = L.marker(
+                [58.201502, -6.744959],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_33b0e7326167585d3b43673f142e7680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_535fb616cdc859310d6e2542dae9da29 = $(`<div id="html_535fb616cdc859310d6e2542dae9da29" style="width: 100.0%; height: 100.0%;">Stone Circles</div>`)[0];
+                popup_33b0e7326167585d3b43673f142e7680.setContent(html_535fb616cdc859310d6e2542dae9da29);
+            
+        
+
+        marker_c7ff04dfd69115cc9ddc1d85474dfc38.bindPopup(popup_33b0e7326167585d3b43673f142e7680)
+        ;
+
+        
+    
+    
+            marker_c7ff04dfd69115cc9ddc1d85474dfc38.bindTooltip(
+                `<div>
+                     Callanish, Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f84ef94a3b7f070b52d875eef281f490 = L.marker(
+                [47.58469299999999, -3.077786],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_6ca2aec5865e38dcfcdd4e13b6c4b60a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aa778f09bbc9739f1bc2e5a911053bb = $(`<div id="html_3aa778f09bbc9739f1bc2e5a911053bb" style="width: 100.0%; height: 100.0%;">Alignments, Circles etc</div>`)[0];
+                popup_6ca2aec5865e38dcfcdd4e13b6c4b60a.setContent(html_3aa778f09bbc9739f1bc2e5a911053bb);
+            
+        
+
+        marker_f84ef94a3b7f070b52d875eef281f490.bindPopup(popup_6ca2aec5865e38dcfcdd4e13b6c4b60a)
+        ;
+
+        
+    
+    
+            marker_f84ef94a3b7f070b52d875eef281f490.bindTooltip(
+                `<div>
+                     Carnac, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b481fe0f18e1fd1161ba1bf1460be2c = L.marker(
+                [52.1306607, -3.7837117],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_eb77e1f9f1725fee8abad6a30ead93d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_138a316c786a6e6e1b56793f728d4007 = $(`<div id="html_138a316c786a6e6e1b56793f728d4007" style="width: 100.0%; height: 100.0%;">Cairn Circle</div>`)[0];
+                popup_eb77e1f9f1725fee8abad6a30ead93d2.setContent(html_138a316c786a6e6e1b56793f728d4007);
+            
+        
+
+        marker_5b481fe0f18e1fd1161ba1bf1460be2c.bindPopup(popup_eb77e1f9f1725fee8abad6a30ead93d2)
+        ;
+
+        
+    
+    
+            marker_5b481fe0f18e1fd1161ba1bf1460be2c.bindTooltip(
+                `<div>
+                     Carn Liechart, Wales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afea74f9fe1df84dcf7338ee3ad33d7d = L.marker(
+                [-10.8920691, -77.5232461],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_95c0bd2f2494b6d76aee007901c52b94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45bbde7fb36b7586a3ca5855601054d8 = $(`<div id="html_45bbde7fb36b7586a3ca5855601054d8" style="width: 100.0%; height: 100.0%;">Pyramid Complex</div>`)[0];
+                popup_95c0bd2f2494b6d76aee007901c52b94.setContent(html_45bbde7fb36b7586a3ca5855601054d8);
+            
+        
+
+        marker_afea74f9fe1df84dcf7338ee3ad33d7d.bindPopup(popup_95c0bd2f2494b6d76aee007901c52b94)
+        ;
+
+        
+    
+    
+            marker_afea74f9fe1df84dcf7338ee3ad33d7d.bindTooltip(
+                `<div>
+                     Caral, Peru (Pyramid Complex)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9ff20c26b58defc6eb69f9d82da52e4 = L.marker(
+                [55.137713, -7.663875699999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_50036fed9602738a8e53d5ce7ef4d2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_184236bbb4512f2a5e739802e54c5ea1 = $(`<div id="html_184236bbb4512f2a5e739802e54c5ea1" style="width: 100.0%; height: 100.0%;">Passage Mounds</div>`)[0];
+                popup_50036fed9602738a8e53d5ce7ef4d2f2.setContent(html_184236bbb4512f2a5e739802e54c5ea1);
+            
+        
+
+        marker_a9ff20c26b58defc6eb69f9d82da52e4.bindPopup(popup_50036fed9602738a8e53d5ce7ef4d2f2)
+        ;
+
+        
+    
+    
+            marker_a9ff20c26b58defc6eb69f9d82da52e4.bindTooltip(
+                `<div>
+                     Carrowkeel, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_144724eb0b5d28640fac5dc5d4a9c1de = L.marker(
+                [39.4146181, -7.454066399999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_df7527bef083f2791c13184480113573 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f81957a6a8a155efff6a62464691e52 = $(`<div id="html_4f81957a6a8a155efff6a62464691e52" style="width: 100.0%; height: 100.0%;">Complex</div>`)[0];
+                popup_df7527bef083f2791c13184480113573.setContent(html_4f81957a6a8a155efff6a62464691e52);
+            
+        
+
+        marker_144724eb0b5d28640fac5dc5d4a9c1de.bindPopup(popup_df7527bef083f2791c13184480113573)
+        ;
+
+        
+    
+    
+            marker_144724eb0b5d28640fac5dc5d4a9c1de.bindTooltip(
+                `<div>
+                     Castelo de Vide, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d141d3fe465364e57b3fd64c0f416d44 = L.marker(
+                [54.592957, -3.11207],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_d97ae61f64912cab0a220b2c898985df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_865cfaa5f5c2ceb71d64fbacc4a94343 = $(`<div id="html_865cfaa5f5c2ceb71d64fbacc4a94343" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_d97ae61f64912cab0a220b2c898985df.setContent(html_865cfaa5f5c2ceb71d64fbacc4a94343);
+            
+        
+
+        marker_d141d3fe465364e57b3fd64c0f416d44.bindPopup(popup_d97ae61f64912cab0a220b2c898985df)
+        ;
+
+        
+    
+    
+            marker_d141d3fe465364e57b3fd64c0f416d44.bindTooltip(
+                `<div>
+                     Castlerigg, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7a6afc8a316c2c869b2f37022a05184 = L.marker(
+                [52.9911034, -6.636721499999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_353bc0160824676c59289e75ab736c11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aaec7859c1553fb70b3093ce3a42237 = $(`<div id="html_7aaec7859c1553fb70b3093ce3a42237" style="width: 100.0%; height: 100.0%;">Henge-Circle</div>`)[0];
+                popup_353bc0160824676c59289e75ab736c11.setContent(html_7aaec7859c1553fb70b3093ce3a42237);
+            
+        
+
+        marker_c7a6afc8a316c2c869b2f37022a05184.bindPopup(popup_353bc0160824676c59289e75ab736c11)
+        ;
+
+        
+    
+    
+            marker_c7a6afc8a316c2c869b2f37022a05184.bindTooltip(
+                `<div>
+                     Castleruddery, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0006d2fd34ca82736ef5804aacd6ebca = L.marker(
+                [37.6664372, 32.8256599],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_1d801e3c495ef7c4ccf30533a6819000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10cb50f8d5331917bd1ad9bb09c2c922 = $(`<div id="html_10cb50f8d5331917bd1ad9bb09c2c922" style="width: 100.0%; height: 100.0%;">City Complex</div>`)[0];
+                popup_1d801e3c495ef7c4ccf30533a6819000.setContent(html_10cb50f8d5331917bd1ad9bb09c2c922);
+            
+        
+
+        marker_0006d2fd34ca82736ef5804aacd6ebca.bindPopup(popup_1d801e3c495ef7c4ccf30533a6819000)
+        ;
+
+        
+    
+    
+            marker_0006d2fd34ca82736ef5804aacd6ebca.bindTooltip(
+                `<div>
+                     Çatal Huyuk, Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d83a8331b3c7c9f15e114406845545bd = L.marker(
+                [38.125799, 41.512198],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_d80756e9100b81ef20384be7184db40e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e62857527cc3c3a251df00d28f505932 = $(`<div id="html_e62857527cc3c3a251df00d28f505932" style="width: 100.0%; height: 100.0%;">Cult Buildings</div>`)[0];
+                popup_d80756e9100b81ef20384be7184db40e.setContent(html_e62857527cc3c3a251df00d28f505932);
+            
+        
+
+        marker_d83a8331b3c7c9f15e114406845545bd.bindPopup(popup_d80756e9100b81ef20384be7184db40e)
+        ;
+
+        
+    
+    
+            marker_d83a8331b3c7c9f15e114406845545bd.bindTooltip(
+                `<div>
+                     Çayönü, Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47fb44d06dca164a437996e976ff513b = L.marker(
+                [50.8088477, -2.4772256],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e69e81a5a64399fd9b4475951fccb6a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d821866566739add5636cd7f9b33d3e = $(`<div id="html_1d821866566739add5636cd7f9b33d3e" style="width: 100.0%; height: 100.0%;">Chalk Figure</div>`)[0];
+                popup_e69e81a5a64399fd9b4475951fccb6a2.setContent(html_1d821866566739add5636cd7f9b33d3e);
+            
+        
+
+        marker_47fb44d06dca164a437996e976ff513b.bindPopup(popup_e69e81a5a64399fd9b4475951fccb6a2)
+        ;
+
+        
+    
+    
+            marker_47fb44d06dca164a437996e976ff513b.bindTooltip(
+                `<div>
+                     Cerne Abbas, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac1cffb9ba28243eeafe4fd0865b0b9b = L.marker(
+                [36.05299979999999, -107.955924],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_236dc33c6b4a07383af07a40d1f2aae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_510f4b51db0d01679ea45e7a0403ba70 = $(`<div id="html_510f4b51db0d01679ea45e7a0403ba70" style="width: 100.0%; height: 100.0%;">Anasazi Sun-dagger</div>`)[0];
+                popup_236dc33c6b4a07383af07a40d1f2aae1.setContent(html_510f4b51db0d01679ea45e7a0403ba70);
+            
+        
+
+        marker_ac1cffb9ba28243eeafe4fd0865b0b9b.bindPopup(popup_236dc33c6b4a07383af07a40d1f2aae1)
+        ;
+
+        
+    
+    
+            marker_ac1cffb9ba28243eeafe4fd0865b0b9b.bindTooltip(
+                `<div>
+                     Chaco canyon, New Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_011e73848d0468906c83d28a5f21869c = L.marker(
+                [-9.563515599999999, -78.22767759999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_f23521c22076b279174bdc7157dc923a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d4922ea3e4391720182c26977536f3d = $(`<div id="html_5d4922ea3e4391720182c26977536f3d" style="width: 100.0%; height: 100.0%;">Landscape Observatory</div>`)[0];
+                popup_f23521c22076b279174bdc7157dc923a.setContent(html_5d4922ea3e4391720182c26977536f3d);
+            
+        
+
+        marker_011e73848d0468906c83d28a5f21869c.bindPopup(popup_f23521c22076b279174bdc7157dc923a)
+        ;
+
+        
+    
+    
+            marker_011e73848d0468906c83d28a5f21869c.bindTooltip(
+                `<div>
+                     Chankillo, Peru (Landscape Observatory)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9361ba8839ba529d0a06f09a428f3e16 = L.marker(
+                [44.3872439, 4.4158646],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_023d1aa969dfd209cc1b8ae733dec35a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ba15d4ed0473ebdcc2b5e0dc2ece18d = $(`<div id="html_7ba15d4ed0473ebdcc2b5e0dc2ece18d" style="width: 100.0%; height: 100.0%;">Palaeolithic Cave</div>`)[0];
+                popup_023d1aa969dfd209cc1b8ae733dec35a.setContent(html_7ba15d4ed0473ebdcc2b5e0dc2ece18d);
+            
+        
+
+        marker_9361ba8839ba529d0a06f09a428f3e16.bindPopup(popup_023d1aa969dfd209cc1b8ae733dec35a)
+        ;
+
+        
+    
+    
+            marker_9361ba8839ba529d0a06f09a428f3e16.bindTooltip(
+                `<div>
+                     Chauvet, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5efcd510658e244705df9ebce3749936 = L.marker(
+                [-9.5954724, -77.17583599999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_dcd2f56e44d68cf9152f881b0c33afc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036e89962391c4aa79e29b3ac0c2148c = $(`<div id="html_036e89962391c4aa79e29b3ac0c2148c" style="width: 100.0%; height: 100.0%;">Citadel</div>`)[0];
+                popup_dcd2f56e44d68cf9152f881b0c33afc7.setContent(html_036e89962391c4aa79e29b3ac0c2148c);
+            
+        
+
+        marker_5efcd510658e244705df9ebce3749936.bindPopup(popup_dcd2f56e44d68cf9152f881b0c33afc7)
+        ;
+
+        
+    
+    
+            marker_5efcd510658e244705df9ebce3749936.bindTooltip(
+                `<div>
+                     Chavin du Huantar, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd0da7f3c02579fcc17b81a3f1464172 = L.marker(
+                [20.6797272, -88.56670799999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_4b32450024104019b0f471c4c1f86710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_248939ce56335ab30823fe183a356490 = $(`<div id="html_248939ce56335ab30823fe183a356490" style="width: 100.0%; height: 100.0%;">Citadel</div>`)[0];
+                popup_4b32450024104019b0f471c4c1f86710.setContent(html_248939ce56335ab30823fe183a356490);
+            
+        
+
+        marker_dd0da7f3c02579fcc17b81a3f1464172.bindPopup(popup_4b32450024104019b0f471c4c1f86710)
+        ;
+
+        
+    
+    
+            marker_dd0da7f3c02579fcc17b81a3f1464172.bindTooltip(
+                `<div>
+                     Chichen Itza, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_399d1de9d706f9de9ae2952e90a974b8 = L.marker(
+                [38.8014742, -8.2285466],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_46d9759f1e26109a5af27d36e5f3e76f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7426ed4e86f8e19d41a52ee977d198d0 = $(`<div id="html_7426ed4e86f8e19d41a52ee977d198d0" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_46d9759f1e26109a5af27d36e5f3e76f.setContent(html_7426ed4e86f8e19d41a52ee977d198d0);
+            
+        
+
+        marker_399d1de9d706f9de9ae2952e90a974b8.bindPopup(popup_46d9759f1e26109a5af27d36e5f3e76f)
+        ;
+
+        
+    
+    
+            marker_399d1de9d706f9de9ae2952e90a974b8.bindTooltip(
+                `<div>
+                     Ciborro, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fdaf148cb050eb2c155c9e65a93e001 = L.marker(
+                [11.0372378, -73.9251951],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_6080bc10462ae3f36e5046fb198a2619 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60f9c4856205a477e82d5f6345cd29f1 = $(`<div id="html_60f9c4856205a477e82d5f6345cd29f1" style="width: 100.0%; height: 100.0%;">Jungle City</div>`)[0];
+                popup_6080bc10462ae3f36e5046fb198a2619.setContent(html_60f9c4856205a477e82d5f6345cd29f1);
+            
+        
+
+        marker_2fdaf148cb050eb2c155c9e65a93e001.bindPopup(popup_6080bc10462ae3f36e5046fb198a2619)
+        ;
+
+        
+    
+    
+            marker_2fdaf148cb050eb2c155c9e65a93e001.bindTooltip(
+                `<div>
+                     Ciudad Perdida, Colombia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ec2d3ef65dfe0652dbed70c76405ee0 = L.marker(
+                [39.3994924, -7.817760099999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_83d08e50fb1ce558a8da12e06d2f7863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c41214619b6132b5f834e23a5577dd50 = $(`<div id="html_c41214619b6132b5f834e23a5577dd50" style="width: 100.0%; height: 100.0%;">Christianised Dolmen</div>`)[0];
+                popup_83d08e50fb1ce558a8da12e06d2f7863.setContent(html_c41214619b6132b5f834e23a5577dd50);
+            
+        
+
+        marker_4ec2d3ef65dfe0652dbed70c76405ee0.bindPopup(popup_83d08e50fb1ce558a8da12e06d2f7863)
+        ;
+
+        
+    
+    
+            marker_4ec2d3ef65dfe0652dbed70c76405ee0.bindTooltip(
+                `<div>
+                     Commenda Igreja, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73e3c4028390bf8bad44218269a1b009 = L.marker(
+                [37.0241672, -4.5482665],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_6cc35ca26b9530c7814dbb475bc18899 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ca33325ed7a17bd15f571bba40e578d = $(`<div id="html_3ca33325ed7a17bd15f571bba40e578d" style="width: 100.0%; height: 100.0%;">Passage Mounds</div>`)[0];
+                popup_6cc35ca26b9530c7814dbb475bc18899.setContent(html_3ca33325ed7a17bd15f571bba40e578d);
+            
+        
+
+        marker_73e3c4028390bf8bad44218269a1b009.bindPopup(popup_6cc35ca26b9530c7814dbb475bc18899)
+        ;
+
+        
+    
+    
+            marker_73e3c4028390bf8bad44218269a1b009.bindTooltip(
+                `<div>
+                     Cueva de Menga, Spain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd027f8c30eb1b81142f5797ad93584a = L.marker(
+                [19.3764052, -99.1513907],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_96e228c16a933a7aabc14bcad4960921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b25a9ddd94035503ed8f5383156fff2 = $(`<div id="html_3b25a9ddd94035503ed8f5383156fff2" style="width: 100.0%; height: 100.0%;">Circular Pyramid</div>`)[0];
+                popup_96e228c16a933a7aabc14bcad4960921.setContent(html_3b25a9ddd94035503ed8f5383156fff2);
+            
+        
+
+        marker_dd027f8c30eb1b81142f5797ad93584a.bindPopup(popup_96e228c16a933a7aabc14bcad4960921)
+        ;
+
+        
+    
+    
+            marker_dd027f8c30eb1b81142f5797ad93584a.bindTooltip(
+                `<div>
+                     Cuicuilco, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9d8f254ca5a5e703c0cabb8facb02ae = L.marker(
+                [40.56983779999999, -7.755414999999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_003c780f463b7fc3699db82b2c826b5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39c81377b343071b3a6ecf2bc80edd4b = $(`<div id="html_39c81377b343071b3a6ecf2bc80edd4b" style="width: 100.0%; height: 100.0%;">Alle</div>`)[0];
+                popup_003c780f463b7fc3699db82b2c826b5c.setContent(html_39c81377b343071b3a6ecf2bc80edd4b);
+            
+        
+
+        marker_e9d8f254ca5a5e703c0cabb8facb02ae.bindPopup(popup_003c780f463b7fc3699db82b2c826b5c)
+        ;
+
+        
+    
+    
+            marker_e9d8f254ca5a5e703c0cabb8facb02ae.bindTooltip(
+                `<div>
+                     Cunha Baixa, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10dc8064c5b26ac95dc55f8a7ce25cd3 = L.marker(
+                [-13.53195, -71.96746259999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_0c3ee11d38c67c064cb76c18c361494c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37588d892fe25da37c6ae9c7fd27b16d = $(`<div id="html_37588d892fe25da37c6ae9c7fd27b16d" style="width: 100.0%; height: 100.0%;">Inca Capital</div>`)[0];
+                popup_0c3ee11d38c67c064cb76c18c361494c.setContent(html_37588d892fe25da37c6ae9c7fd27b16d);
+            
+        
+
+        marker_10dc8064c5b26ac95dc55f8a7ce25cd3.bindPopup(popup_0c3ee11d38c67c064cb76c18c361494c)
+        ;
+
+        
+    
+    
+            marker_10dc8064c5b26ac95dc55f8a7ce25cd3.bindTooltip(
+                `<div>
+                     Cuzco, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e967162dda05b0eac10bc2774bbd992 = L.marker(
+                [37.3962623, 25.2689412],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_955d94257af18fd2109f581b8d2cf0ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_269e785aff49f59e91d6114fcc9830d0 = $(`<div id="html_269e785aff49f59e91d6114fcc9830d0" style="width: 100.0%; height: 100.0%;">Oracle centre</div>`)[0];
+                popup_955d94257af18fd2109f581b8d2cf0ed.setContent(html_269e785aff49f59e91d6114fcc9830d0);
+            
+        
+
+        marker_6e967162dda05b0eac10bc2774bbd992.bindPopup(popup_955d94257af18fd2109f581b8d2cf0ed)
+        ;
+
+        
+    
+    
+            marker_6e967162dda05b0eac10bc2774bbd992.bindTooltip(
+                `<div>
+                     Delos, Greece
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_262d6a9d345aae9c599b1aa9c382e437 = L.marker(
+                [38.4800567, 22.4940617],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_47edf050b7e733ba09636cad3783e911 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9177ab4a30ccaf053df571f00521fca = $(`<div id="html_f9177ab4a30ccaf053df571f00521fca" style="width: 100.0%; height: 100.0%;">Oracle Centre</div>`)[0];
+                popup_47edf050b7e733ba09636cad3783e911.setContent(html_f9177ab4a30ccaf053df571f00521fca);
+            
+        
+
+        marker_262d6a9d345aae9c599b1aa9c382e437.bindPopup(popup_47edf050b7e733ba09636cad3783e911)
+        ;
+
+        
+    
+    
+            marker_262d6a9d345aae9c599b1aa9c382e437.bindTooltip(
+                `<div>
+                     Delphi, Greece
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ab11b6e22029689da1b248250d1bb03 = L.marker(
+                [26.1676376, 32.65642860000001],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_6e89620de6f8ec54d5a6a579784e4cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bf60f48eef585f1598a93240743238e = $(`<div id="html_8bf60f48eef585f1598a93240743238e" style="width: 100.0%; height: 100.0%;">Temple Complex</div>`)[0];
+                popup_6e89620de6f8ec54d5a6a579784e4cb7.setContent(html_8bf60f48eef585f1598a93240743238e);
+            
+        
+
+        marker_9ab11b6e22029689da1b248250d1bb03.bindPopup(popup_6e89620de6f8ec54d5a6a579784e4cb7)
+        ;
+
+        
+    
+    
+            marker_9ab11b6e22029689da1b248250d1bb03.bindTooltip(
+                `<div>
+                     Denderra, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5458c31e734cbe0bba8f9e8c1bad17a = L.marker(
+                [38.374548, 34.733365],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2347b0e95f7a3bcd806c02d7ce08c54d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7704e27d19e951dad1c4d497d0058785 = $(`<div id="html_7704e27d19e951dad1c4d497d0058785" style="width: 100.0%; height: 100.0%;">Underground City Complex</div>`)[0];
+                popup_2347b0e95f7a3bcd806c02d7ce08c54d.setContent(html_7704e27d19e951dad1c4d497d0058785);
+            
+        
+
+        marker_a5458c31e734cbe0bba8f9e8c1bad17a.bindPopup(popup_2347b0e95f7a3bcd806c02d7ce08c54d)
+        ;
+
+        
+    
+    
+            marker_a5458c31e734cbe0bba8f9e8c1bad17a.bindTooltip(
+                `<div>
+                     Derinkuyu, Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84d55e0b34c87fd5bd58363c69831a8c = L.marker(
+                [54.0923694, -1.4028942],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_9cc43c159d2fb85580a30b3e246b205e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6ff9c20387075312668516570afdcdd = $(`<div id="html_c6ff9c20387075312668516570afdcdd" style="width: 100.0%; height: 100.0%;">Alignment of Standing Stones</div>`)[0];
+                popup_9cc43c159d2fb85580a30b3e246b205e.setContent(html_c6ff9c20387075312668516570afdcdd);
+            
+        
+
+        marker_84d55e0b34c87fd5bd58363c69831a8c.bindPopup(popup_9cc43c159d2fb85580a30b3e246b205e)
+        ;
+
+        
+    
+    
+            marker_84d55e0b34c87fd5bd58363c69831a8c.bindTooltip(
+                `<div>
+                     Devil's Arrows, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbac4f85cefac36eec3f57b30ecf8872 = L.marker(
+                [39.074208, 21.824312],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_c0c84720e8d02014d301ff29c7cc1ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b986ce5f4c3385677f446dff3e7806a = $(`<div id="html_3b986ce5f4c3385677f446dff3e7806a" style="width: 100.0%; height: 100.0%;">Oracle Centre</div>`)[0];
+                popup_c0c84720e8d02014d301ff29c7cc1ea9.setContent(html_3b986ce5f4c3385677f446dff3e7806a);
+            
+        
+
+        marker_bbac4f85cefac36eec3f57b30ecf8872.bindPopup(popup_c0c84720e8d02014d301ff29c7cc1ea9)
+        ;
+
+        
+    
+    
+            marker_bbac4f85cefac36eec3f57b30ecf8872.bindTooltip(
+                `<div>
+                     Dodona, Greece
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b910bbd2482995f0e0b075d860dd5eda = L.marker(
+                [48.54969, -1.753965],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_a2bd74bc560a9059cef21675e9ccec02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38c93a2511333f6ecab37f4fc8cac5e2 = $(`<div id="html_38c93a2511333f6ecab37f4fc8cac5e2" style="width: 100.0%; height: 100.0%;">Standing Stone</div>`)[0];
+                popup_a2bd74bc560a9059cef21675e9ccec02.setContent(html_38c93a2511333f6ecab37f4fc8cac5e2);
+            
+        
+
+        marker_b910bbd2482995f0e0b075d860dd5eda.bindPopup(popup_a2bd74bc560a9059cef21675e9ccec02)
+        ;
+
+        
+    
+    
+            marker_b910bbd2482995f0e0b075d860dd5eda.bindTooltip(
+                `<div>
+                     Dol-de-Breton, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c7ccb6f564243f5343086ec2936f843 = L.marker(
+                [48.8882243, 16.6436916],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_cf29d2f4163f514b9fca2a8477137689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbc8e6e6aa8d00dbb86cc158c9838fec = $(`<div id="html_cbc8e6e6aa8d00dbb86cc158c9838fec" style="width: 100.0%; height: 100.0%;">Upper Palaeolithic, Art</div>`)[0];
+                popup_cf29d2f4163f514b9fca2a8477137689.setContent(html_cbc8e6e6aa8d00dbb86cc158c9838fec);
+            
+        
+
+        marker_8c7ccb6f564243f5343086ec2936f843.bindPopup(popup_cf29d2f4163f514b9fca2a8477137689)
+        ;
+
+        
+    
+    
+            marker_8c7ccb6f564243f5343086ec2936f843.bindTooltip(
+                `<div>
+                     Dolni Vestonice, Czech,
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_514738d26a3e4e72472b747e60677615 = L.marker(
+                [50.7111639, -2.441181],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e8a1327eb06600549ab71b7c1e96f05c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_958a060ed8e1aa824c9ae6a42feef589 = $(`<div id="html_958a060ed8e1aa824c9ae6a42feef589" style="width: 100.0%; height: 100.0%;">Henge and Cursus</div>`)[0];
+                popup_e8a1327eb06600549ab71b7c1e96f05c.setContent(html_958a060ed8e1aa824c9ae6a42feef589);
+            
+        
+
+        marker_514738d26a3e4e72472b747e60677615.bindPopup(popup_e8a1327eb06600549ab71b7c1e96f05c)
+        ;
+
+        
+    
+    
+            marker_514738d26a3e4e72472b747e60677615.bindTooltip(
+                `<div>
+                     Dorchester Big-rings, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a7a995b9ddaa71cf50741cacb4c8d3b = L.marker(
+                [50.7487635, -2.3444786],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_1514a869e1280b15e180a53020b45e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d41e51778c7a15f6cee834193e4d333 = $(`<div id="html_0d41e51778c7a15f6cee834193e4d333" style="width: 100.0%; height: 100.0%;">10kn long Cursus</div>`)[0];
+                popup_1514a869e1280b15e180a53020b45e0b.setContent(html_0d41e51778c7a15f6cee834193e4d333);
+            
+        
+
+        marker_1a7a995b9ddaa71cf50741cacb4c8d3b.bindPopup(popup_1514a869e1280b15e180a53020b45e0b)
+        ;
+
+        
+    
+    
+            marker_1a7a995b9ddaa71cf50741cacb4c8d3b.bindTooltip(
+                `<div>
+                     Dorset Cursus, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27a5d9307bd5774bc0000b92e8e81693 = L.marker(
+                [53.7057483, -6.443195299999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_c31e5c0556d0f94e4d7e4fefbcfdd668 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9972692c3f951f731489ef65579bccd7 = $(`<div id="html_9972692c3f951f731489ef65579bccd7" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_c31e5c0556d0f94e4d7e4fefbcfdd668.setContent(html_9972692c3f951f731489ef65579bccd7);
+            
+        
+
+        marker_27a5d9307bd5774bc0000b92e8e81693.bindPopup(popup_c31e5c0556d0f94e4d7e4fefbcfdd668)
+        ;
+
+        
+    
+    
+            marker_27a5d9307bd5774bc0000b92e8e81693.bindTooltip(
+                `<div>
+                     Dowth, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b4539769ce07d9fe36fdebc1860f0d8 = L.marker(
+                [51.57927, -1.56846],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_c995b4819057a8a1e84f02a4ff88fb9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b47b993a13d28b66e9e4df8e6d9aa4a = $(`<div id="html_6b47b993a13d28b66e9e4df8e6d9aa4a" style="width: 100.0%; height: 100.0%;">Carved Figure, Flattened Hilltop</div>`)[0];
+                popup_c995b4819057a8a1e84f02a4ff88fb9d.setContent(html_6b47b993a13d28b66e9e4df8e6d9aa4a);
+            
+        
+
+        marker_5b4539769ce07d9fe36fdebc1860f0d8.bindPopup(popup_c995b4819057a8a1e84f02a4ff88fb9d)
+        ;
+
+        
+    
+    
+            marker_5b4539769ce07d9fe36fdebc1860f0d8.bindTooltip(
+                `<div>
+                     Dragon Hill, England       (Carved Figure, Flattened Hilltop)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6bd30e6fa793db3737f864714ef8db6 = L.marker(
+                [52.4818127, -9.4893223],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_c3dec6ceb7eca5a38f60fb7a085e9bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7b34db9f8ab5f57cedf6005b2ea50be = $(`<div id="html_b7b34db9f8ab5f57cedf6005b2ea50be" style="width: 100.0%; height: 100.0%;">Recumbent Stone Circle</div>`)[0];
+                popup_c3dec6ceb7eca5a38f60fb7a085e9bd3.setContent(html_b7b34db9f8ab5f57cedf6005b2ea50be);
+            
+        
+
+        marker_c6bd30e6fa793db3737f864714ef8db6.bindPopup(popup_c3dec6ceb7eca5a38f60fb7a085e9bd3)
+        ;
+
+        
+    
+    
+            marker_c6bd30e6fa793db3737f864714ef8db6.bindTooltip(
+                `<div>
+                     Drombeg, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81e0f4a5479382ca828d298670282cfc = L.marker(
+                [-27.112723, -109.3496865],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_cfa3350d5f42921fb4fd70444d09aabe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c49f3082fc792d6b5575fab2196ffac3 = $(`<div id="html_c49f3082fc792d6b5575fab2196ffac3" style="width: 100.0%; height: 100.0%;">Earth Navel</div>`)[0];
+                popup_cfa3350d5f42921fb4fd70444d09aabe.setContent(html_c49f3082fc792d6b5575fab2196ffac3);
+            
+        
+
+        marker_81e0f4a5479382ca828d298670282cfc.bindPopup(popup_cfa3350d5f42921fb4fd70444d09aabe)
+        ;
+
+        
+    
+    
+            marker_81e0f4a5479382ca828d298670282cfc.bindTooltip(
+                `<div>
+                     Easter Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31b7ed6a4fcac08f6f15d0f7341ec5c1 = L.marker(
+                [47.5717554, -2.9513254],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_31e453da0b343edfdd13aec45d5d0265 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79dac8d71830c394d6eac41b6aa566f6 = $(`<div id="html_79dac8d71830c394d6eac41b6aa566f6" style="width: 100.0%; height: 100.0%;">Tumulus at Lochmariaquer</div>`)[0];
+                popup_31e453da0b343edfdd13aec45d5d0265.setContent(html_79dac8d71830c394d6eac41b6aa566f6);
+            
+        
+
+        marker_31b7ed6a4fcac08f6f15d0f7341ec5c1.bindPopup(popup_31e453da0b343edfdd13aec45d5d0265)
+        ;
+
+        
+    
+    
+            marker_31b7ed6a4fcac08f6f15d0f7341ec5c1.bindTooltip(
+                `<div>
+                     Er-Grah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_909a7737a4fbc0c2a7df6fa4e0b57820 = L.marker(
+                [47.568134, -2.896736],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2cb2fb958545a4271a2f9950234bb97c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2bd9ef411b97261662d87003a872275 = $(`<div id="html_a2bd9ef411b97261662d87003a872275" style="width: 100.0%; height: 100.0%;">Twin Stone Circles</div>`)[0];
+                popup_2cb2fb958545a4271a2f9950234bb97c.setContent(html_a2bd9ef411b97261662d87003a872275);
+            
+        
+
+        marker_909a7737a4fbc0c2a7df6fa4e0b57820.bindPopup(popup_2cb2fb958545a4271a2f9950234bb97c)
+        ;
+
+        
+    
+    
+            marker_909a7737a4fbc0c2a7df6fa4e0b57820.bindTooltip(
+                `<div>
+                     Er-Lannic, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7de1f6f56f4cf54f7f80eba9cadde675 = L.marker(
+                [33.223191, 43.679291],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_97a9da1fef85b847b01a6aeb2352d584 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a89aebad903d900833da5efcd80d8580 = $(`<div id="html_a89aebad903d900833da5efcd80d8580" style="width: 100.0%; height: 100.0%;">Sumerian City State</div>`)[0];
+                popup_97a9da1fef85b847b01a6aeb2352d584.setContent(html_a89aebad903d900833da5efcd80d8580);
+            
+        
+
+        marker_7de1f6f56f4cf54f7f80eba9cadde675.bindPopup(popup_97a9da1fef85b847b01a6aeb2352d584)
+        ;
+
+        
+    
+    
+            marker_7de1f6f56f4cf54f7f80eba9cadde675.bindTooltip(
+                `<div>
+                     Eridu, Iraq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89d5743abb54dcf233b8d12f7ad29374 = L.marker(
+                [38.571431, -7.913501999999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_84d0893c54265e438e34a15d7b496fda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93a6ea39fec82e7ed066ce314d6c1e53 = $(`<div id="html_93a6ea39fec82e7ed066ce314d6c1e53" style="width: 100.0%; height: 100.0%;">Megalithic Complex</div>`)[0];
+                popup_84d0893c54265e438e34a15d7b496fda.setContent(html_93a6ea39fec82e7ed066ce314d6c1e53);
+            
+        
+
+        marker_89d5743abb54dcf233b8d12f7ad29374.bindPopup(popup_84d0893c54265e438e34a15d7b496fda)
+        ;
+
+        
+    
+    
+            marker_89d5743abb54dcf233b8d12f7ad29374.bindTooltip(
+                `<div>
+                     Evora, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c742e546ccae65c71e87e4686ac46c02 = L.marker(
+                [39.074208, 21.824312],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_8c4c36c3ba7533d40ff1d7d25bded56a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8d77b85b048fd6e03a9ef53addfdd50 = $(`<div id="html_b8d77b85b048fd6e03a9ef53addfdd50" style="width: 100.0%; height: 100.0%;">Delos, Oracle Centre</div>`)[0];
+                popup_8c4c36c3ba7533d40ff1d7d25bded56a.setContent(html_b8d77b85b048fd6e03a9ef53addfdd50);
+            
+        
+
+        marker_c742e546ccae65c71e87e4686ac46c02.bindPopup(popup_8c4c36c3ba7533d40ff1d7d25bded56a)
+        ;
+
+        
+    
+    
+            marker_c742e546ccae65c71e87e4686ac46c02.bindTooltip(
+                `<div>
+                     Floating Island, Greece
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0472898349145757767c891ac099decd = L.marker(
+                [41.48251399999999, -8.5595985],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_748e5cdcc4ebfc03c83a73da05539eec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbe39289447721f50a78812f4da542a2 = $(`<div id="html_bbe39289447721f50a78812f4da542a2" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_748e5cdcc4ebfc03c83a73da05539eec.setContent(html_bbe39289447721f50a78812f4da542a2);
+            
+        
+
+        marker_0472898349145757767c891ac099decd.bindPopup(popup_748e5cdcc4ebfc03c83a73da05539eec)
+        ;
+
+        
+    
+    
+            marker_0472898349145757767c891ac099decd.bindTooltip(
+                `<div>
+                     Fonte Coberta, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ac0aa6267c56fc9dcac7e2f43861185 = L.marker(
+                [53.5969208, -6.325815299999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2ff2b4f7cc855bdeeb824ed867ad500e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa432450c1bb57a4d1a5f325c1170c8a = $(`<div id="html_fa432450c1bb57a4d1a5f325c1170c8a" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_2ff2b4f7cc855bdeeb824ed867ad500e.setContent(html_fa432450c1bb57a4d1a5f325c1170c8a);
+            
+        
+
+        marker_8ac0aa6267c56fc9dcac7e2f43861185.bindPopup(popup_2ff2b4f7cc855bdeeb824ed867ad500e)
+        ;
+
+        
+    
+    
+            marker_8ac0aa6267c56fc9dcac7e2f43861185.bindTooltip(
+                `<div>
+                     Fourknocks, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6a66cdad0b896489dd6890e258c176b = L.marker(
+                [47.57403499999999, -2.8969839],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_64bd071f197914da35f04bf4ffaca33e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9f15b4efc81cde455ee7406f1114e52 = $(`<div id="html_d9f15b4efc81cde455ee7406f1114e52" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_64bd071f197914da35f04bf4ffaca33e.setContent(html_d9f15b4efc81cde455ee7406f1114e52);
+            
+        
+
+        marker_d6a66cdad0b896489dd6890e258c176b.bindPopup(popup_64bd071f197914da35f04bf4ffaca33e)
+        ;
+
+        
+    
+    
+            marker_d6a66cdad0b896489dd6890e258c176b.bindTooltip(
+                `<div>
+                     Gavrinis, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a49ac60582977875790290cd384f4a18 = L.marker(
+                [36.0489144, 14.2678184],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_8279651687e0c3d71f9ca4e9dee3de43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a064545619298a5eb269f1b97c4d6f36 = $(`<div id="html_a064545619298a5eb269f1b97c4d6f36" style="width: 100.0%; height: 100.0%;">Temple Complex</div>`)[0];
+                popup_8279651687e0c3d71f9ca4e9dee3de43.setContent(html_a064545619298a5eb269f1b97c4d6f36);
+            
+        
+
+        marker_a49ac60582977875790290cd384f4a18.bindPopup(popup_8279651687e0c3d71f9ca4e9dee3de43)
+        ;
+
+        
+    
+    
+            marker_a49ac60582977875790290cd384f4a18.bindTooltip(
+                `<div>
+                     Ggantija, Malta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9097e32decf36c9de22e5e1002f10ca = L.marker(
+                [30.00256019999999, 31.1766037],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_06520ffa20a50d7d35d4fab336e32872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b62b73fd59b9229d23fccbf61c547438 = $(`<div id="html_b62b73fd59b9229d23fccbf61c547438" style="width: 100.0%; height: 100.0%;">Pyramid Complex, Sphinx</div>`)[0];
+                popup_06520ffa20a50d7d35d4fab336e32872.setContent(html_b62b73fd59b9229d23fccbf61c547438);
+            
+        
+
+        marker_a9097e32decf36c9de22e5e1002f10ca.bindPopup(popup_06520ffa20a50d7d35d4fab336e32872)
+        ;
+
+        
+    
+    
+            marker_a9097e32decf36c9de22e5e1002f10ca.bindTooltip(
+                `<div>
+                     Ghiza/Giza, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba7491cc5cd43ab7b3d832051edafebf = L.marker(
+                [51.147427, -2.718454],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_c625a383dd4704edcfb01bb1d9756f37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a710eaa1e25f8e8ad4e81311b3fd2b13 = $(`<div id="html_a710eaa1e25f8e8ad4e81311b3fd2b13" style="width: 100.0%; height: 100.0%;">Tor, 'Sacred Heart of England'</div>`)[0];
+                popup_c625a383dd4704edcfb01bb1d9756f37.setContent(html_a710eaa1e25f8e8ad4e81311b3fd2b13);
+            
+        
+
+        marker_ba7491cc5cd43ab7b3d832051edafebf.bindPopup(popup_c625a383dd4704edcfb01bb1d9756f37)
+        ;
+
+        
+    
+    
+            marker_ba7491cc5cd43ab7b3d832051edafebf.bindTooltip(
+                `<div>
+                     Glastonbury, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_429ebc2240a820d7722d836e4c813fce = L.marker(
+                [37.2231663, 38.9224119],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_008834ee5bd57833910233c9645f23ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3446b6831d5f00e976279af7fd397e2 = $(`<div id="html_b3446b6831d5f00e976279af7fd397e2" style="width: 100.0%; height: 100.0%;">Oldest known Stone Circles</div>`)[0];
+                popup_008834ee5bd57833910233c9645f23ba.setContent(html_b3446b6831d5f00e976279af7fd397e2);
+            
+        
+
+        marker_429ebc2240a820d7722d836e4c813fce.bindPopup(popup_008834ee5bd57833910233c9645f23ba)
+        ;
+
+        
+    
+    
+            marker_429ebc2240a820d7722d836e4c813fce.bindTooltip(
+                `<div>
+                     Gobekli Tepe, Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5d54504fb961e5f6981fe804988826f = L.marker(
+                [51.9315684, -4.7146368],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_493fe2949c8aed1cf94c5d99fe6c5684 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d424afe26985343652abd3546fb78d29 = $(`<div id="html_d424afe26985343652abd3546fb78d29" style="width: 100.0%; height: 100.0%;">Stone Circle, Avenue</div>`)[0];
+                popup_493fe2949c8aed1cf94c5d99fe6c5684.setContent(html_d424afe26985343652abd3546fb78d29);
+            
+        
+
+        marker_d5d54504fb961e5f6981fe804988826f.bindPopup(popup_493fe2949c8aed1cf94c5d99fe6c5684)
+        ;
+
+        
+    
+    
+            marker_d5d54504fb961e5f6981fe804988826f.bindTooltip(
+                `<div>
+                     Gors Fawr
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_889f47b802d6cd9101974ec53c3710e1 = L.marker(
+                [51.1952958, 11.8717075],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_9a8111c866d8f154aaf0b78c4cb86dbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14908d91dba9549e6446df0a6e284047 = $(`<div id="html_14908d91dba9549e6446df0a6e284047" style="width: 100.0%; height: 100.0%;">Oldest Solar Observatory</div>`)[0];
+                popup_9a8111c866d8f154aaf0b78c4cb86dbc.setContent(html_14908d91dba9549e6446df0a6e284047);
+            
+        
+
+        marker_889f47b802d6cd9101974ec53c3710e1.bindPopup(popup_9a8111c866d8f154aaf0b78c4cb86dbc)
+        ;
+
+        
+    
+    
+            marker_889f47b802d6cd9101974ec53c3710e1.bindTooltip(
+                `<div>
+                     Goseck, Germany
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_118a67a56db7c6bfb0ed4687fad4daf3 = L.marker(
+                [47.5717554, -2.9513254],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_8d7f81ebfa1aceffa799bc5368f1bf9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_998f797b9422bdc77734b9d00855e3d6 = $(`<div id="html_998f797b9422bdc77734b9d00855e3d6" style="width: 100.0%; height: 100.0%;">Largest Menhir in Europe</div>`)[0];
+                popup_8d7f81ebfa1aceffa799bc5368f1bf9e.setContent(html_998f797b9422bdc77734b9d00855e3d6);
+            
+        
+
+        marker_118a67a56db7c6bfb0ed4687fad4daf3.bindPopup(popup_8d7f81ebfa1aceffa799bc5368f1bf9e)
+        ;
+
+        
+    
+    
+            marker_118a67a56db7c6bfb0ed4687fad4daf3.bindTooltip(
+                `<div>
+                     Grande Menhir Brisé, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d238252a79589f6d7c8b7318443900f = L.marker(
+                [29.9791705, 31.1342046],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_ef9551152fe2ce92e4802c54f7cd0196 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_997936f0d99d9a08efa9c0d38eda8744 = $(`<div id="html_997936f0d99d9a08efa9c0d38eda8744" style="width: 100.0%; height: 100.0%;">Analysis of the Great Pyramid</div>`)[0];
+                popup_ef9551152fe2ce92e4802c54f7cd0196.setContent(html_997936f0d99d9a08efa9c0d38eda8744);
+            
+        
+
+        marker_8d238252a79589f6d7c8b7318443900f.bindPopup(popup_ef9551152fe2ce92e4802c54f7cd0196)
+        ;
+
+        
+    
+    
+            marker_8d238252a79589f6d7c8b7318443900f.bindTooltip(
+                `<div>
+                     Great Pyramid, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6bb9c6e131f9e6dde86356e8aabffb9 = L.marker(
+                [47.138632, 3.037578],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e53ab77851d3c9ad2e319f56ffa0fc02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0289fc328c72e7f65952d32fe3e5ede2 = $(`<div id="html_0289fc328c72e7f65952d32fe3e5ede2" style="width: 100.0%; height: 100.0%;">Palaeolithic Caves</div>`)[0];
+                popup_e53ab77851d3c9ad2e319f56ffa0fc02.setContent(html_0289fc328c72e7f65952d32fe3e5ede2);
+            
+        
+
+        marker_e6bb9c6e131f9e6dde86356e8aabffb9.bindPopup(popup_e53ab77851d3c9ad2e319f56ffa0fc02)
+        ;
+
+        
+    
+    
+            marker_e6bb9c6e131f9e6dde86356e8aabffb9.bindTooltip(
+                `<div>
+                     La Marche, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71581aca1172add1a4d1678b9d5f6ac8 = L.marker(
+                [45.053919, 1.167651],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_6e0e66b7b0047f09ae67b15c4ef111d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6be1c372dc933be3902d33fb9a7c792d = $(`<div id="html_6be1c372dc933be3902d33fb9a7c792d" style="width: 100.0%; height: 100.0%;">Palaeolithic Caves</div>`)[0];
+                popup_6e0e66b7b0047f09ae67b15c4ef111d8.setContent(html_6be1c372dc933be3902d33fb9a7c792d);
+            
+        
+
+        marker_71581aca1172add1a4d1678b9d5f6ac8.bindPopup(popup_6e0e66b7b0047f09ae67b15c4ef111d8)
+        ;
+
+        
+    
+    
+            marker_71581aca1172add1a4d1678b9d5f6ac8.bindTooltip(
+                `<div>
+                     Lascaux, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40919e5fd0d83d0e9304c4e1feda0de9 = L.marker(
+                [18.1039479, -94.0394524],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_01b3c318d3583508289a6b98b394abde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b6f457699c4695468db9aa1c4afb3f6 = $(`<div id="html_7b6f457699c4695468db9aa1c4afb3f6" style="width: 100.0%; height: 100.0%;">Olmec Capital</div>`)[0];
+                popup_01b3c318d3583508289a6b98b394abde.setContent(html_7b6f457699c4695468db9aa1c4afb3f6);
+            
+        
+
+        marker_40919e5fd0d83d0e9304c4e1feda0de9.bindPopup(popup_01b3c318d3583508289a6b98b394abde)
+        ;
+
+        
+    
+    
+            marker_40919e5fd0d83d0e9304c4e1feda0de9.bindTooltip(
+                `<div>
+                     La Venta, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c750a4c8128de079eaef01d4ca01f02 = L.marker(
+                [52.5142375, -8.541915],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_98f61f79f429f1b09a0ead97b9273636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d53f7ef837a07744b4aa85ca4f655513 = $(`<div id="html_d53f7ef837a07744b4aa85ca4f655513" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_98f61f79f429f1b09a0ead97b9273636.setContent(html_d53f7ef837a07744b4aa85ca4f655513);
+            
+        
+
+        marker_3c750a4c8128de079eaef01d4ca01f02.bindPopup(popup_98f61f79f429f1b09a0ead97b9273636)
+        ;
+
+        
+    
+    
+            marker_3c750a4c8128de079eaef01d4ca01f02.bindTooltip(
+                `<div>
+                     Lios na Grainsi, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e4603499804e30bf0107e8223564a56 = L.marker(
+                [47.5532402, 1.0105289],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_f1f5dcc60ab16964c71700197a7f087f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee0e384661ff6f3cebd30faeb09ba1aa = $(`<div id="html_ee0e384661ff6f3cebd30faeb09ba1aa" style="width: 100.0%; height: 100.0%;">Large Dolmens</div>`)[0];
+                popup_f1f5dcc60ab16964c71700197a7f087f.setContent(html_ee0e384661ff6f3cebd30faeb09ba1aa);
+            
+        
+
+        marker_0e4603499804e30bf0107e8223564a56.bindPopup(popup_f1f5dcc60ab16964c71700197a7f087f)
+        ;
+
+        
+    
+    
+            marker_0e4603499804e30bf0107e8223564a56.bindTooltip(
+                `<div>
+                     Loire Valley, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf5e96faa2ca7eeae46630d9eb9b6791 = L.marker(
+                [29.0282699, 119.17225],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_033226e5783d25b78574618dbd2a0af3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62c6ce0f491209ae7d31d5791c4169d4 = $(`<div id="html_62c6ce0f491209ae7d31d5791c4169d4" style="width: 100.0%; height: 100.0%;">Carved Caves</div>`)[0];
+                popup_033226e5783d25b78574618dbd2a0af3.setContent(html_62c6ce0f491209ae7d31d5791c4169d4);
+            
+        
+
+        marker_bf5e96faa2ca7eeae46630d9eb9b6791.bindPopup(popup_033226e5783d25b78574618dbd2a0af3)
+        ;
+
+        
+    
+    
+            marker_bf5e96faa2ca7eeae46630d9eb9b6791.bindTooltip(
+                `<div>
+                     Longyou, China
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30b81d4341e7016aef741ab87e36e72f = L.marker(
+                [53.72972739999999, -7.1441677],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_a783e102a029f3e8adc63942c89d6156 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f579e5a9e511124a94d34d755f57b66b = $(`<div id="html_f579e5a9e511124a94d34d755f57b66b" style="width: 100.0%; height: 100.0%;">Passage Mounds</div>`)[0];
+                popup_a783e102a029f3e8adc63942c89d6156.setContent(html_f579e5a9e511124a94d34d755f57b66b);
+            
+        
+
+        marker_30b81d4341e7016aef741ab87e36e72f.bindPopup(popup_a783e102a029f3e8adc63942c89d6156)
+        ;
+
+        
+    
+    
+            marker_30b81d4341e7016aef741ab87e36e72f.bindTooltip(
+                `<div>
+                     Loughcrew, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd5a36e365e6796e4db247c1000ffc8d = L.marker(
+                [39.2382437, -0.7728918],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_103c3b6fe2d81ced6ee0ff829bdd1cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50e40931de79804a112696570a434848 = $(`<div id="html_50e40931de79804a112696570a434848" style="width: 100.0%; height: 100.0%;">Prehistoric Citadel</div>`)[0];
+                popup_103c3b6fe2d81ced6ee0ff829bdd1cc1.setContent(html_50e40931de79804a112696570a434848);
+            
+        
+
+        marker_cd5a36e365e6796e4db247c1000ffc8d.bindPopup(popup_103c3b6fe2d81ced6ee0ff829bdd1cc1)
+        ;
+
+        
+    
+    
+            marker_cd5a36e365e6796e4db247c1000ffc8d.bindTooltip(
+                `<div>
+                     Los Millares, Spain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_767812197e5809cdf1c217e018b3606f = L.marker(
+                [-13.1547062, -72.5254412],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_f4a0efb1df25ffef32891a5aa92288e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b14a777a180d7d9e161a768acc9fdbf7 = $(`<div id="html_b14a777a180d7d9e161a768acc9fdbf7" style="width: 100.0%; height: 100.0%;">Mountain Citadel</div>`)[0];
+                popup_f4a0efb1df25ffef32891a5aa92288e9.setContent(html_b14a777a180d7d9e161a768acc9fdbf7);
+            
+        
+
+        marker_767812197e5809cdf1c217e018b3606f.bindPopup(popup_f4a0efb1df25ffef32891a5aa92288e9)
+        ;
+
+        
+    
+    
+            marker_767812197e5809cdf1c217e018b3606f.bindTooltip(
+                `<div>
+                     Machu Pichu, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_415a824ccea625bbbeaca0bcc1f336c3 = L.marker(
+                [35.937496, 14.375416],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_fb557c61969ce09046c6711b708ce0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b95a09c9241faecd767775ce60262910 = $(`<div id="html_b95a09c9241faecd767775ce60262910" style="width: 100.0%; height: 100.0%;">Megalithic Island Complex</div>`)[0];
+                popup_fb557c61969ce09046c6711b708ce0c4.setContent(html_b95a09c9241faecd767775ce60262910);
+            
+        
+
+        marker_415a824ccea625bbbeaca0bcc1f336c3.bindPopup(popup_fb557c61969ce09046c6711b708ce0c4)
+        ;
+
+        
+    
+    
+            marker_415a824ccea625bbbeaca0bcc1f336c3.bindTooltip(
+                `<div>
+                     Malta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b32551638f3902a2909cfcb687447bdb = L.marker(
+                [40.6785792, -7.5193093],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_34a8780e0be16fd95292330a06e9b8b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d05bba198b372ef0d548a377d1e412a = $(`<div id="html_5d05bba198b372ef0d548a377d1e412a" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_34a8780e0be16fd95292330a06e9b8b9.setContent(html_5d05bba198b372ef0d548a377d1e412a);
+            
+        
+
+        marker_b32551638f3902a2909cfcb687447bdb.bindPopup(popup_34a8780e0be16fd95292330a06e9b8b9)
+        ;
+
+        
+    
+    
+            marker_b32551638f3902a2909cfcb687447bdb.bindTooltip(
+                `<div>
+                     Matanca, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6f1d5309c17e6dd8dc22b9def0bbe3b = L.marker(
+                [58.996527, -3.1881166],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_db998d5a2c1aaad7cce8e2fe78ded39e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08df37432f09732d050c4144c525c990 = $(`<div id="html_08df37432f09732d050c4144c525c990" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_db998d5a2c1aaad7cce8e2fe78ded39e.setContent(html_08df37432f09732d050c4144c525c990);
+            
+        
+
+        marker_b6f1d5309c17e6dd8dc22b9def0bbe3b.bindPopup(popup_db998d5a2c1aaad7cce8e2fe78ded39e)
+        ;
+
+        
+    
+    
+            marker_b6f1d5309c17e6dd8dc22b9def0bbe3b.bindTooltip(
+                `<div>
+                     Maes Howe, Scotland   (Passage Mound)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3938a40b28fa3bcd2701a1024c12e89 = L.marker(
+                [39.4959882, -7.445688800000001],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_803caa650a895e9622047d92fc9e48ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1e85e7696165c7619ecffcdac46750e = $(`<div id="html_e1e85e7696165c7619ecffcdac46750e" style="width: 100.0%; height: 100.0%;">Standing Stone</div>`)[0];
+                popup_803caa650a895e9622047d92fc9e48ff.setContent(html_e1e85e7696165c7619ecffcdac46750e);
+            
+        
+
+        marker_d3938a40b28fa3bcd2701a1024c12e89.bindPopup(popup_803caa650a895e9622047d92fc9e48ff)
+        ;
+
+        
+    
+    
+            marker_d3938a40b28fa3bcd2701a1024c12e89.bindTooltip(
+                `<div>
+                     Meada menhir, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac2e66e1eed6f6cfd3fb8fbe2be66ee3 = L.marker(
+                [51.9067286, -4.7026489],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_8a476038c3b420b6c8087ec642e44d50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a011de09bf8b2658b77e4b7367245854 = $(`<div id="html_a011de09bf8b2658b77e4b7367245854" style="width: 100.0%; height: 100.0%;">Henge-Circle</div>`)[0];
+                popup_8a476038c3b420b6c8087ec642e44d50.setContent(html_a011de09bf8b2658b77e4b7367245854);
+            
+        
+
+        marker_ac2e66e1eed6f6cfd3fb8fbe2be66ee3.bindPopup(popup_8a476038c3b420b6c8087ec642e44d50)
+        ;
+
+        
+    
+    
+            marker_ac2e66e1eed6f6cfd3fb8fbe2be66ee3.bindTooltip(
+                `<div>
+                     Meini Gwyr, Wales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5b78c471ff95fc03341e16c5cc519d4 = L.marker(
+                [50.1585502, -5.6044497],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_77065ef564f280665b2b79d36e323630 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0339b7c4797d8865faae4b2f8a32ebe = $(`<div id="html_c0339b7c4797d8865faae4b2f8a32ebe" style="width: 100.0%; height: 100.0%;">Holed Stone</div>`)[0];
+                popup_77065ef564f280665b2b79d36e323630.setContent(html_c0339b7c4797d8865faae4b2f8a32ebe);
+            
+        
+
+        marker_b5b78c471ff95fc03341e16c5cc519d4.bindPopup(popup_77065ef564f280665b2b79d36e323630)
+        ;
+
+        
+    
+    
+            marker_b5b78c471ff95fc03341e16c5cc519d4.bindTooltip(
+                `<div>
+                     Men-an-Tol, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_123937b365e64352802d9766821ac3ec = L.marker(
+                [50.0651299, -5.5887251],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_b6ce13cee2799d6a621a2b6631d92def = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7db1eaeb5640c2afe5f8ccafbfd0e7f = $(`<div id="html_a7db1eaeb5640c2afe5f8ccafbfd0e7f" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_b6ce13cee2799d6a621a2b6631d92def.setContent(html_a7db1eaeb5640c2afe5f8ccafbfd0e7f);
+            
+        
+
+        marker_123937b365e64352802d9766821ac3ec.bindPopup(popup_b6ce13cee2799d6a621a2b6631d92def)
+        ;
+
+        
+    
+    
+            marker_123937b365e64352802d9766821ac3ec.bindTooltip(
+                `<div>
+                     Merry Maidens, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f168fe270ad2f40bd3056a30e19659c7 = L.marker(
+                [40.1427498, 44.1241666],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_86e680e4c565eb395eaa0dc4cea6da64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99985fe8e62d1037aeceacbd7691b51e = $(`<div id="html_99985fe8e62d1037aeceacbd7691b51e" style="width: 100.0%; height: 100.0%;">Ancient Citadel</div>`)[0];
+                popup_86e680e4c565eb395eaa0dc4cea6da64.setContent(html_99985fe8e62d1037aeceacbd7691b51e);
+            
+        
+
+        marker_f168fe270ad2f40bd3056a30e19659c7.bindPopup(popup_86e680e4c565eb395eaa0dc4cea6da64)
+        ;
+
+        
+    
+    
+            marker_f168fe270ad2f40bd3056a30e19659c7.bindTooltip(
+                `<div>
+                     Metsamor, Armenia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0af9e2ce54d5661796b29533e9f3c387 = L.marker(
+                [15.783471, -90.23075899999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_7afe6028dfe5888b9033735a0f00d2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15e4fe84a6a566d625042993c6c606bc = $(`<div id="html_15e4fe84a6a566d625042993c6c606bc" style="width: 100.0%; height: 100.0%;">Pyramid Complex</div>`)[0];
+                popup_7afe6028dfe5888b9033735a0f00d2d1.setContent(html_15e4fe84a6a566d625042993c6c606bc);
+            
+        
+
+        marker_0af9e2ce54d5661796b29533e9f3c387.bindPopup(popup_7afe6028dfe5888b9033735a0f00d2d1)
+        ;
+
+        
+    
+    
+            marker_0af9e2ce54d5661796b29533e9f3c387.bindTooltip(
+                `<div>
+                     Mirador, Guatemala
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4850586a96cbdc4c57901fab095f6f7 = L.marker(
+                [35.82658980000001, 14.4365263],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_bf98700a353d0376be9cb784e478f6b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bfcc5f74384c3504fab8019e86a05cc = $(`<div id="html_5bfcc5f74384c3504fab8019e86a05cc" style="width: 100.0%; height: 100.0%;">Temple Complex</div>`)[0];
+                popup_bf98700a353d0376be9cb784e478f6b3.setContent(html_5bfcc5f74384c3504fab8019e86a05cc);
+            
+        
+
+        marker_a4850586a96cbdc4c57901fab095f6f7.bindPopup(popup_bf98700a353d0376be9cb784e478f6b3)
+        ;
+
+        
+    
+    
+            marker_a4850586a96cbdc4c57901fab095f6f7.bindTooltip(
+                `<div>
+                     Mnajdra, Malta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_feb82a414a5bf5d69f83f910dbe2032a = L.marker(
+                [27.3287231, 68.1371795],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_9f20ab0450f4fc10684cb21cbdc809fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94e4df9a9ca5d4915f8c66a071db8b1a = $(`<div id="html_94e4df9a9ca5d4915f8c66a071db8b1a" style="width: 100.0%; height: 100.0%;">Indus Valley Citadel</div>`)[0];
+                popup_9f20ab0450f4fc10684cb21cbdc809fe.setContent(html_94e4df9a9ca5d4915f8c66a071db8b1a);
+            
+        
+
+        marker_feb82a414a5bf5d69f83f910dbe2032a.bindPopup(popup_9f20ab0450f4fc10684cb21cbdc809fe)
+        ;
+
+        
+    
+    
+            marker_feb82a414a5bf5d69f83f910dbe2032a.bindTooltip(
+                `<div>
+                     Mohenjo Daro, Pakistan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c8ce538c3cea9ea9d2817042b6fb691 = L.marker(
+                [38.4518533, -7.3840729],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_8c40c84f788ef14331ced1443aaa1b26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2107e3d56c4d4540ad43db604d47bd38 = $(`<div id="html_2107e3d56c4d4540ad43db604d47bd38" style="width: 100.0%; height: 100.0%;">Stone Quadrangle</div>`)[0];
+                popup_8c40c84f788ef14331ced1443aaa1b26.setContent(html_2107e3d56c4d4540ad43db604d47bd38);
+            
+        
+
+        marker_8c8ce538c3cea9ea9d2817042b6fb691.bindPopup(popup_8c40c84f788ef14331ced1443aaa1b26)
+        ;
+
+        
+    
+    
+            marker_8c8ce538c3cea9ea9d2817042b6fb691.bindTooltip(
+                `<div>
+                     Monsaraz, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c9748679b27e14d3f23dd8be5a5da02 = L.marker(
+                [48.636063, -1.511457],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e0e8308eea2e5bdaa3ad69b00b6531d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8d01550b30cfd1ed0c66a9c0bc8562e = $(`<div id="html_f8d01550b30cfd1ed0c66a9c0bc8562e" style="width: 100.0%; height: 100.0%;">Pilgrimage Site</div>`)[0];
+                popup_e0e8308eea2e5bdaa3ad69b00b6531d0.setContent(html_f8d01550b30cfd1ed0c66a9c0bc8562e);
+            
+        
+
+        marker_5c9748679b27e14d3f23dd8be5a5da02.bindPopup(popup_e0e8308eea2e5bdaa3ad69b00b6531d0)
+        ;
+
+        
+    
+    
+            marker_5c9748679b27e14d3f23dd8be5a5da02.bindTooltip(
+                `<div>
+                     Mont St Michel, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ca1cea05fe44383f16a6fd20203f311 = L.marker(
+                [17.0454573, -96.76746729999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_21e22444367be3db842db8171b875d3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9550ffc1c49def243cd7c588bb349142 = $(`<div id="html_9550ffc1c49def243cd7c588bb349142" style="width: 100.0%; height: 100.0%;">Mountain Citadel</div>`)[0];
+                popup_21e22444367be3db842db8171b875d3b.setContent(html_9550ffc1c49def243cd7c588bb349142);
+            
+        
+
+        marker_5ca1cea05fe44383f16a6fd20203f311.bindPopup(popup_21e22444367be3db842db8171b875d3b)
+        ;
+
+        
+    
+    
+            marker_5ca1cea05fe44383f16a6fd20203f311.bindTooltip(
+                `<div>
+                     Monte Alban, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c5a0c41a97825dbed8a77acc4e5f75d = L.marker(
+                [37.7308631, 22.7561327],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2b8bdb4dc67c3d14030840ccd025ea14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca14982eae87a1dd4f4ef144a8d570a4 = $(`<div id="html_ca14982eae87a1dd4f4ef144a8d570a4" style="width: 100.0%; height: 100.0%;">Mycenaean Capital</div>`)[0];
+                popup_2b8bdb4dc67c3d14030840ccd025ea14.setContent(html_ca14982eae87a1dd4f4ef144a8d570a4);
+            
+        
+
+        marker_7c5a0c41a97825dbed8a77acc4e5f75d.bindPopup(popup_2b8bdb4dc67c3d14030840ccd025ea14)
+        ;
+
+        
+    
+    
+            marker_7c5a0c41a97825dbed8a77acc4e5f75d.bindTooltip(
+                `<div>
+                     Mycenae, Greece (
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13d6926495ff61383841a7af6261e737 = L.marker(
+                [26.820553, 30.802498],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_204f3823134f4a32126f1ef44a345304 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fad8221eee6c4dae124469955b0085af = $(`<div id="html_fad8221eee6c4dae124469955b0085af" style="width: 100.0%; height: 100.0%;">Stone Circle, Menhirs</div>`)[0];
+                popup_204f3823134f4a32126f1ef44a345304.setContent(html_fad8221eee6c4dae124469955b0085af);
+            
+        
+
+        marker_13d6926495ff61383841a7af6261e737.bindPopup(popup_204f3823134f4a32126f1ef44a345304)
+        ;
+
+        
+    
+    
+            marker_13d6926495ff61383841a7af6261e737.bindTooltip(
+                `<div>
+                     Nabta, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_472d289cffac34b580d965336a0a130b = L.marker(
+                [6.844570399999999, 158.3356402],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_92442ce6a72c022dd2fc5fd30d174b27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1989f8706808e04e252b73a31511ee6 = $(`<div id="html_a1989f8706808e04e252b73a31511ee6" style="width: 100.0%; height: 100.0%;">Island Citadel</div>`)[0];
+                popup_92442ce6a72c022dd2fc5fd30d174b27.setContent(html_a1989f8706808e04e252b73a31511ee6);
+            
+        
+
+        marker_472d289cffac34b580d965336a0a130b.bindPopup(popup_92442ce6a72c022dd2fc5fd30d174b27)
+        ;
+
+        
+    
+    
+            marker_472d289cffac34b580d965336a0a130b.bindTooltip(
+                `<div>
+                     Nan Modal, Pacific
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aee67912218ba594d9c410d64986d82b = L.marker(
+                [-14.8358687, -74.9327583],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_5617958c0c90ba38dca4e579e562579f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_666b8b3d9d82853409292b5aed0e86f5 = $(`<div id="html_666b8b3d9d82853409292b5aed0e86f5" style="width: 100.0%; height: 100.0%;">Desert Drawings</div>`)[0];
+                popup_5617958c0c90ba38dca4e579e562579f.setContent(html_666b8b3d9d82853409292b5aed0e86f5);
+            
+        
+
+        marker_aee67912218ba594d9c410d64986d82b.bindPopup(popup_5617958c0c90ba38dca4e579e562579f)
+        ;
+
+        
+    
+    
+            marker_aee67912218ba594d9c410d64986d82b.bindTooltip(
+                `<div>
+                     Nazca, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_663078400d98f71ba6834b8bd48aaeed = L.marker(
+                [37.51833329999999, 38.6055556],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_279aedb87e6bfd36dbf68b89e52131d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b656c3c32c0ccf0c5fab26231c6d52a = $(`<div id="html_5b656c3c32c0ccf0c5fab26231c6d52a" style="width: 100.0%; height: 100.0%;">Cult Complex</div>`)[0];
+                popup_279aedb87e6bfd36dbf68b89e52131d3.setContent(html_5b656c3c32c0ccf0c5fab26231c6d52a);
+            
+        
+
+        marker_663078400d98f71ba6834b8bd48aaeed.bindPopup(popup_279aedb87e6bfd36dbf68b89e52131d3)
+        ;
+
+        
+    
+    
+            marker_663078400d98f71ba6834b8bd48aaeed.bindTooltip(
+                `<div>
+                     Nevali Cori, Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67345029788364428a5e0c57ac5b5620 = L.marker(
+                [58.99701929999999, -3.2147998],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_16f561f9f5786374dcdd3a0ab3c0b4e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f076b83bd75951ffdb91b01a5097f86 = $(`<div id="html_0f076b83bd75951ffdb91b01a5097f86" style="width: 100.0%; height: 100.0%;">Ceremonial complex</div>`)[0];
+                popup_16f561f9f5786374dcdd3a0ab3c0b4e1.setContent(html_0f076b83bd75951ffdb91b01a5097f86);
+            
+        
+
+        marker_67345029788364428a5e0c57ac5b5620.bindPopup(popup_16f561f9f5786374dcdd3a0ab3c0b4e1)
+        ;
+
+        
+    
+    
+            marker_67345029788364428a5e0c57ac5b5620.bindTooltip(
+                `<div>
+                     Ness of Brodgar, Scotland   (Ceremonial complex)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_776c8c8ce0e4106cc021863be2a6a6c3 = L.marker(
+                [53.69471189999999, -6.4754917],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_ff90c9a514adca87ddb9f3fb9623ba4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05e5ba6c41ff8b898a43b897ccf73640 = $(`<div id="html_05e5ba6c41ff8b898a43b897ccf73640" style="width: 100.0%; height: 100.0%;">Passage Mounds</div>`)[0];
+                popup_ff90c9a514adca87ddb9f3fb9623ba4c.setContent(html_05e5ba6c41ff8b898a43b897ccf73640);
+            
+        
+
+        marker_776c8c8ce0e4106cc021863be2a6a6c3.bindPopup(popup_ff90c9a514adca87ddb9f3fb9623ba4c)
+        ;
+
+        
+    
+    
+            marker_776c8c8ce0e4106cc021863be2a6a6c3.bindTooltip(
+                `<div>
+                     Newgrange, Ireland   (Passage Mounds)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1581adb6df72bb51709816427621333 = L.marker(
+                [32.427908, 53.688046],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_428c7dfbae1238f190ef771f23dcf96b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e4782a5caff9d921b08e1ec472abd67 = $(`<div id="html_8e4782a5caff9d921b08e1ec472abd67" style="width: 100.0%; height: 100.0%;">City State</div>`)[0];
+                popup_428c7dfbae1238f190ef771f23dcf96b.setContent(html_8e4782a5caff9d921b08e1ec472abd67);
+            
+        
+
+        marker_e1581adb6df72bb51709816427621333.bindPopup(popup_428c7dfbae1238f190ef771f23dcf96b)
+        ;
+
+        
+    
+    
+            marker_e1581adb6df72bb51709816427621333.bindTooltip(
+                `<div>
+                     Nippur, Iran
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3e0cb9782a3b6b44c173c2fcb111a0a = L.marker(
+                [57.27021149999999, -2.6736739],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_f773c966b1d423e870033598e2b660f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c40391fc056b1f2244ad20bc37dd88f5 = $(`<div id="html_c40391fc056b1f2244ad20bc37dd88f5" style="width: 100.0%; height: 100.0%;">Recumbent Stone circle</div>`)[0];
+                popup_f773c966b1d423e870033598e2b660f0.setContent(html_c40391fc056b1f2244ad20bc37dd88f5);
+            
+        
+
+        marker_c3e0cb9782a3b6b44c173c2fcb111a0a.bindPopup(popup_f773c966b1d423e870033598e2b660f0)
+        ;
+
+        
+    
+    
+            marker_c3e0cb9782a3b6b44c173c2fcb111a0a.bindTooltip(
+                `<div>
+                     Old Keig, Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efa96c92f424ba9d3a6ffd92b054e246 = L.marker(
+                [51.0932288, -1.8048782],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_a604c30ce54e0c8a3600f9481f81421d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31b03ee5c746ca48c05e753cd9671a92 = $(`<div id="html_31b03ee5c746ca48c05e753cd9671a92" style="width: 100.0%; height: 100.0%;">Neolithic Hill Fort</div>`)[0];
+                popup_a604c30ce54e0c8a3600f9481f81421d.setContent(html_31b03ee5c746ca48c05e753cd9671a92);
+            
+        
+
+        marker_efa96c92f424ba9d3a6ffd92b054e246.bindPopup(popup_a604c30ce54e0c8a3600f9481f81421d)
+        ;
+
+        
+    
+    
+            marker_efa96c92f424ba9d3a6ffd92b054e246.bindTooltip(
+                `<div>
+                     Old Sarum, England (Neolithic Hill Fort)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0b640752bab76d4e602684982f6e833 = L.marker(
+                [-13.2583689, -72.2642679],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_0de36db1ec08d21046defc09d398ab85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cff520dcc6d6c6106b3c91bb3edebf5a = $(`<div id="html_cff520dcc6d6c6106b3c91bb3edebf5a" style="width: 100.0%; height: 100.0%;">Mountain Citadel</div>`)[0];
+                popup_0de36db1ec08d21046defc09d398ab85.setContent(html_cff520dcc6d6c6106b3c91bb3edebf5a);
+            
+        
+
+        marker_c0b640752bab76d4e602684982f6e833.bindPopup(popup_0de36db1ec08d21046defc09d398ab85)
+        ;
+
+        
+    
+    
+            marker_c0b640752bab76d4e602684982f6e833.bindTooltip(
+                `<div>
+                     Ollantaytambo, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d220205ef985c2853c6e0ceb2f46954 = L.marker(
+                [40.443878, -7.938072],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_d70d4fdf2a8d19a88c65d044d0db7fdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_233d6493bf01e97830bd77b350f67634 = $(`<div id="html_233d6493bf01e97830bd77b350f67634" style="width: 100.0%; height: 100.0%;">Megalithic Complex</div>`)[0];
+                popup_d70d4fdf2a8d19a88c65d044d0db7fdc.setContent(html_233d6493bf01e97830bd77b350f67634);
+            
+        
+
+        marker_2d220205ef985c2853c6e0ceb2f46954.bindPopup(popup_d70d4fdf2a8d19a88c65d044d0db7fdc)
+        ;
+
+        
+    
+    
+            marker_2d220205ef985c2853c6e0ceb2f46954.bindTooltip(
+                `<div>
+                     Orca dolmens, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db4018f047a0c1e419e9bc11252e83ac = L.marker(
+                [58.9809401, -2.9605206],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_7c080b8c7061d01d8fad50ea4ca85f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2d1bc71fe11af03ea38c2c9f8c64641 = $(`<div id="html_e2d1bc71fe11af03ea38c2c9f8c64641" style="width: 100.0%; height: 100.0%;">Megalithic Complex</div>`)[0];
+                popup_7c080b8c7061d01d8fad50ea4ca85f45.setContent(html_e2d1bc71fe11af03ea38c2c9f8c64641);
+            
+        
+
+        marker_db4018f047a0c1e419e9bc11252e83ac.bindPopup(popup_7c080b8c7061d01d8fad50ea4ca85f45)
+        ;
+
+        
+    
+    
+            marker_db4018f047a0c1e419e9bc11252e83ac.bindTooltip(
+                `<div>
+                     Orkney Islands, Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_479f494471570733f27a3c9d6ad8a5bc = L.marker(
+                [26.1841205, 31.9184519],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_713232e5e7d53a3f635cb7a33bcee41c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a91d69318929295fd5ba37ae8bc97e = $(`<div id="html_36a91d69318929295fd5ba37ae8bc97e" style="width: 100.0%; height: 100.0%;">Underground Temple</div>`)[0];
+                popup_713232e5e7d53a3f635cb7a33bcee41c.setContent(html_36a91d69318929295fd5ba37ae8bc97e);
+            
+        
+
+        marker_479f494471570733f27a3c9d6ad8a5bc.bindPopup(popup_713232e5e7d53a3f635cb7a33bcee41c)
+        ;
+
+        
+    
+    
+            marker_479f494471570733f27a3c9d6ad8a5bc.bindTooltip(
+                `<div>
+                     Osireion, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9cc0c601bdd9f01f16dedbba97b052e = L.marker(
+                [17.5229209, -91.9872616],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_584feecf6ec14834217dc65d3596f39a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4462a63e201186a4891c47d914479af9 = $(`<div id="html_4462a63e201186a4891c47d914479af9" style="width: 100.0%; height: 100.0%;">Pyramid Complex</div>`)[0];
+                popup_584feecf6ec14834217dc65d3596f39a.setContent(html_4462a63e201186a4891c47d914479af9);
+            
+        
+
+        marker_c9cc0c601bdd9f01f16dedbba97b052e.bindPopup(popup_584feecf6ec14834217dc65d3596f39a)
+        ;
+
+        
+    
+    
+            marker_c9cc0c601bdd9f01f16dedbba97b052e.bindTooltip(
+                `<div>
+                     Palenque, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5962712e4eb50b479890acb0496049a3 = L.marker(
+                [41.1753841, -8.607517],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_5ae48af3dc45360c0c03d84f2784578f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de95c05b7b370fc3858b922f004c55c8 = $(`<div id="html_de95c05b7b370fc3858b922f004c55c8" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_5ae48af3dc45360c0c03d84f2784578f.setContent(html_de95c05b7b370fc3858b922f004c55c8);
+            
+        
+
+        marker_5962712e4eb50b479890acb0496049a3.bindPopup(popup_5ae48af3dc45360c0c03d84f2784578f)
+        ;
+
+        
+    
+    
+            marker_5962712e4eb50b479890acb0496049a3.bindTooltip(
+                `<div>
+                     Paranhos, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29d7ec1efc70abedb7dce70a8616a890 = L.marker(
+                [39.39987199999999, -8.224454],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e3125a7db5630651acd2bf316ca060f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04a03a9e2376b7fcff0560161e889f3e = $(`<div id="html_04a03a9e2376b7fcff0560161e889f3e" style="width: 100.0%; height: 100.0%;">Christianised Dolmen</div>`)[0];
+                popup_e3125a7db5630651acd2bf316ca060f0.setContent(html_04a03a9e2376b7fcff0560161e889f3e);
+            
+        
+
+        marker_29d7ec1efc70abedb7dce70a8616a890.bindPopup(popup_e3125a7db5630651acd2bf316ca060f0)
+        ;
+
+        
+    
+    
+            marker_29d7ec1efc70abedb7dce70a8616a890.bindTooltip(
+                `<div>
+                     Pavia (Sao Dinis), Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7b14811364fc2db1f0a475d1abcd8fd = L.marker(
+                [52.0052792, -4.786829399999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_a8efdef18b6cee2a30d94a6150238047 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_031ce545ffa844c8f2ff07f73945dc7f = $(`<div id="html_031ce545ffa844c8f2ff07f73945dc7f" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_a8efdef18b6cee2a30d94a6150238047.setContent(html_031ce545ffa844c8f2ff07f73945dc7f);
+            
+        
+
+        marker_d7b14811364fc2db1f0a475d1abcd8fd.bindPopup(popup_a8efdef18b6cee2a30d94a6150238047)
+        ;
+
+        
+    
+    
+            marker_d7b14811364fc2db1f0a475d1abcd8fd.bindTooltip(
+                `<div>
+                     Pentre Ifan, Wales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1914c2e30ab8086c5c2115f3ee2ea454 = L.marker(
+                [29.9355823, 52.88918169999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_16e97ad78fca898c45b828ad00e37737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d3bb68b8d1ffa9824022035645df310 = $(`<div id="html_1d3bb68b8d1ffa9824022035645df310" style="width: 100.0%; height: 100.0%;">Persian Capital</div>`)[0];
+                popup_16e97ad78fca898c45b828ad00e37737.setContent(html_1d3bb68b8d1ffa9824022035645df310);
+            
+        
+
+        marker_1914c2e30ab8086c5c2115f3ee2ea454.bindPopup(popup_16e97ad78fca898c45b828ad00e37737)
+        ;
+
+        
+    
+    
+            marker_1914c2e30ab8086c5c2115f3ee2ea454.bindTooltip(
+                `<div>
+                     Persepolis, Iran
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f6fc3e66dd238a476730cd1a4bdd687 = L.marker(
+                [40.22956509999999, -7.825189699999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_213af887abdbd6dd2bd3c6f09e4f6883 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe265f0d4ccba2bf012899b52a74fa29 = $(`<div id="html_fe265f0d4ccba2bf012899b52a74fa29" style="width: 100.0%; height: 100.0%;">Largest Rock-cut Spiral in the World</div>`)[0];
+                popup_213af887abdbd6dd2bd3c6f09e4f6883.setContent(html_fe265f0d4ccba2bf012899b52a74fa29);
+            
+        
+
+        marker_1f6fc3e66dd238a476730cd1a4bdd687.bindPopup(popup_213af887abdbd6dd2bd3c6f09e4f6883)
+        ;
+
+        
+    
+    
+            marker_1f6fc3e66dd238a476730cd1a4bdd687.bindTooltip(
+                `<div>
+                     Piodao, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b4eacfc66c1c729dbeaadcc7b506f0c = L.marker(
+                [39.39987199999999, -8.224454],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e81cab4604fbd22eb2b30867a1ab1de7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_161e1fc5bd96ce387f7c0a618ee2d113 = $(`<div id="html_161e1fc5bd96ce387f7c0a618ee2d113" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_e81cab4604fbd22eb2b30867a1ab1de7.setContent(html_161e1fc5bd96ce387f7c0a618ee2d113);
+            
+        
+
+        marker_8b4eacfc66c1c729dbeaadcc7b506f0c.bindPopup(popup_e81cab4604fbd22eb2b30867a1ab1de7)
+        ;
+
+        
+    
+    
+            marker_8b4eacfc66c1c729dbeaadcc7b506f0c.bindTooltip(
+                `<div>
+                     Pombos, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6f0189da1ef6d6779f79ae41de5eaae = L.marker(
+                [40.509533, -7.657543599999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_8e334f57f2a32edcd13ded6383ee7314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7da4a00dd9a8262f5814f55da37ed8d = $(`<div id="html_a7da4a00dd9a8262f5814f55da37ed8d" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_8e334f57f2a32edcd13ded6383ee7314.setContent(html_a7da4a00dd9a8262f5814f55da37ed8d);
+            
+        
+
+        marker_d6f0189da1ef6d6779f79ae41de5eaae.bindPopup(popup_8e334f57f2a32edcd13ded6383ee7314)
+        ;
+
+        
+    
+    
+            marker_d6f0189da1ef6d6779f79ae41de5eaae.bindTooltip(
+                `<div>
+                     Rio Torto, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdda96eed916ed5279aa6f7d43e47ed8 = L.marker(
+                [40.5153204, -7.0886925],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_a7520bf58fafc43436922a6817cde733 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_021970c7daa08168421c97197b8f1c63 = $(`<div id="html_021970c7daa08168421c97197b8f1c63" style="width: 100.0%; height: 100.0%;">Megalithic Complex</div>`)[0];
+                popup_a7520bf58fafc43436922a6817cde733.setContent(html_021970c7daa08168421c97197b8f1c63);
+            
+        
+
+        marker_bdda96eed916ed5279aa6f7d43e47ed8.bindPopup(popup_a7520bf58fafc43436922a6817cde733)
+        ;
+
+        
+    
+    
+            marker_bdda96eed916ed5279aa6f7d43e47ed8.bindTooltip(
+                `<div>
+                     Rochoso, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1dc3b59f7e58ab377349d5fb3fc5d84 = L.marker(
+                [51.97550889999999, -1.5708072],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_db92b4dc98a28334601b8e04bf9132b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ac39af49a375239b1e81eac4c574509 = $(`<div id="html_1ac39af49a375239b1e81eac4c574509" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_db92b4dc98a28334601b8e04bf9132b3.setContent(html_1ac39af49a375239b1e81eac4c574509);
+            
+        
+
+        marker_f1dc3b59f7e58ab377349d5fb3fc5d84.bindPopup(popup_db92b4dc98a28334601b8e04bf9132b3)
+        ;
+
+        
+    
+    
+            marker_f1dc3b59f7e58ab377349d5fb3fc5d84.bindTooltip(
+                `<div>
+                     Rollright Stones, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_004ef88367d32ce79af5b1285bc768cf = L.marker(
+                [54.0952563, -0.3229946],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_51070608c0ddbaa964ec5cc20596c1df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8251d262a18460da3a027719b4c1750 = $(`<div id="html_d8251d262a18460da3a027719b4c1750" style="width: 100.0%; height: 100.0%;">Tallest Standing Stone in UK</div>`)[0];
+                popup_51070608c0ddbaa964ec5cc20596c1df.setContent(html_d8251d262a18460da3a027719b4c1750);
+            
+        
+
+        marker_004ef88367d32ce79af5b1285bc768cf.bindPopup(popup_51070608c0ddbaa964ec5cc20596c1df)
+        ;
+
+        
+    
+    
+            marker_004ef88367d32ce79af5b1285bc768cf.bindTooltip(
+                `<div>
+                     Rudstone, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b37ddeefdd8b52e9ac209f8f1c61e65f = L.marker(
+                [-13.5050343, -71.98014429999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_878b68695a79fc2e9af1baa5a62a9ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bd4a3fcb00a741aee80ceaccb11dbcc = $(`<div id="html_6bd4a3fcb00a741aee80ceaccb11dbcc" style="width: 100.0%; height: 100.0%;">Inca Fortress</div>`)[0];
+                popup_878b68695a79fc2e9af1baa5a62a9ae8.setContent(html_6bd4a3fcb00a741aee80ceaccb11dbcc);
+            
+        
+
+        marker_b37ddeefdd8b52e9ac209f8f1c61e65f.bindPopup(popup_878b68695a79fc2e9af1baa5a62a9ae8)
+        ;
+
+        
+    
+    
+            marker_b37ddeefdd8b52e9ac209f8f1c61e65f.bindTooltip(
+                `<div>
+                     Sacsayhuaman, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b63a80dc4bac9f959212658918bf4029 = L.marker(
+                [-18.1772379, -63.88178319999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_74ce2ad58bce9f41a4b15294b0711b3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc04b0ec85cb7e11c7dcecfad9b00f4 = $(`<div id="html_3fc04b0ec85cb7e11c7dcecfad9b00f4" style="width: 100.0%; height: 100.0%;">Carved Mountain-top</div>`)[0];
+                popup_74ce2ad58bce9f41a4b15294b0711b3d.setContent(html_3fc04b0ec85cb7e11c7dcecfad9b00f4);
+            
+        
+
+        marker_b63a80dc4bac9f959212658918bf4029.bindPopup(popup_74ce2ad58bce9f41a4b15294b0711b3d)
+        ;
+
+        
+    
+    
+            marker_b63a80dc4bac9f959212658918bf4029.bindTooltip(
+                `<div>
+                     Samaipata, Bolivia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbbad6e35324570a986a8eef2455d5aa = L.marker(
+                [52.3555177, -1.1743197],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_27d36ff67233b794e0bf76b0f9216cb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce0e85fb091c218f5ea27b4ac8bf2b61 = $(`<div id="html_ce0e85fb091c218f5ea27b4ac8bf2b61" style="width: 100.0%; height: 100.0%;">Concentric Stone Circles</div>`)[0];
+                popup_27d36ff67233b794e0bf76b0f9216cb9.setContent(html_ce0e85fb091c218f5ea27b4ac8bf2b61);
+            
+        
+
+        marker_bbbad6e35324570a986a8eef2455d5aa.bindPopup(popup_27d36ff67233b794e0bf76b0f9216cb9)
+        ;
+
+        
+    
+    
+            marker_bbbad6e35324570a986a8eef2455d5aa.bindTooltip(
+                `<div>
+                     Sanctuary, The, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a081d3dbbcc559e480b01982fc4551f = L.marker(
+                [1.8799122, -76.2702092],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_de02f52b469cd2aaf4f80c2804f57ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69fa0181197abf0787e1b476bb9e0539 = $(`<div id="html_69fa0181197abf0787e1b476bb9e0539" style="width: 100.0%; height: 100.0%;">Pre-Columbian Complex</div>`)[0];
+                popup_de02f52b469cd2aaf4f80c2804f57ef8.setContent(html_69fa0181197abf0787e1b476bb9e0539);
+            
+        
+
+        marker_3a081d3dbbcc559e480b01982fc4551f.bindPopup(popup_de02f52b469cd2aaf4f80c2804f57ef8)
+        ;
+
+        
+    
+    
+            marker_3a081d3dbbcc559e480b01982fc4551f.bindTooltip(
+                `<div>
+                     San Agustin, Colombia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b26fb0c0fb2364a784ebdc3491dec8b4 = L.marker(
+                [41.4479665, -8.134479899999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_4857862ed1cbd7d5431b9fc33739b6d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1b66326132eaabbb8c6efd043b249ac = $(`<div id="html_d1b66326132eaabbb8c6efd043b249ac" style="width: 100.0%; height: 100.0%;">Dolmen</div>`)[0];
+                popup_4857862ed1cbd7d5431b9fc33739b6d5.setContent(html_d1b66326132eaabbb8c6efd043b249ac);
+            
+        
+
+        marker_b26fb0c0fb2364a784ebdc3491dec8b4.bindPopup(popup_4857862ed1cbd7d5431b9fc33739b6d5)
+        ;
+
+        
+    
+    
+            marker_b26fb0c0fb2364a784ebdc3491dec8b4.bindTooltip(
+                `<div>
+                     San Gens, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c96701ebb568c0aecc9e17c5be60dac4 = L.marker(
+                [17.7548451, -94.7626868],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_9b374ce8d08b2a2ad059e8d2e0c3a263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d708dcf5dff674986013a2fafb671b01 = $(`<div id="html_d708dcf5dff674986013a2fafb671b01" style="width: 100.0%; height: 100.0%;">Olmec City</div>`)[0];
+                popup_9b374ce8d08b2a2ad059e8d2e0c3a263.setContent(html_d708dcf5dff674986013a2fafb671b01);
+            
+        
+
+        marker_c96701ebb568c0aecc9e17c5be60dac4.bindPopup(popup_9b374ce8d08b2a2ad059e8d2e0c3a263)
+        ;
+
+        
+    
+    
+            marker_c96701ebb568c0aecc9e17c5be60dac4.bindTooltip(
+                `<div>
+                     San Lorenzo, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_189aa06631a51cf5db4992b29a78f26b = L.marker(
+                [41.2106924, -7.790137799999998],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_52cea2ab2565646ddd8dd1f052343be1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16f5a597bd211ca8cff84691e8da4a88 = $(`<div id="html_16f5a597bd211ca8cff84691e8da4a88" style="width: 100.0%; height: 100.0%;">Dolmen, Sepulchres</div>`)[0];
+                popup_52cea2ab2565646ddd8dd1f052343be1.setContent(html_16f5a597bd211ca8cff84691e8da4a88);
+            
+        
+
+        marker_189aa06631a51cf5db4992b29a78f26b.bindPopup(popup_52cea2ab2565646ddd8dd1f052343be1)
+        ;
+
+        
+    
+    
+            marker_189aa06631a51cf5db4992b29a78f26b.bindTooltip(
+                `<div>
+                     Santa Marta, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fab987d5f14523fd52b873f587cfd50d = L.marker(
+                [38.0719249, -7.9461413],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e0b350437da69d86526282986f076da1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c570ce84f980c92d83c09cbbfdbf08 = $(`<div id="html_09c570ce84f980c92d83c09cbbfdbf08" style="width: 100.0%; height: 100.0%;">Christianised Dolmen</div>`)[0];
+                popup_e0b350437da69d86526282986f076da1.setContent(html_09c570ce84f980c92d83c09cbbfdbf08);
+            
+        
+
+        marker_fab987d5f14523fd52b873f587cfd50d.bindPopup(popup_e0b350437da69d86526282986f076da1)
+        ;
+
+        
+    
+    
+            marker_fab987d5f14523fd52b873f587cfd50d.bindTooltip(
+                `<div>
+                     Sao Brissos, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_640873167605bb0489bf4d74a3462fdc = L.marker(
+                [40.23487180000001, -8.2070382],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2820974405350f9deb6d47bc0a3d3021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35da71c968e75b1b58aa17e12e957252 = $(`<div id="html_35da71c968e75b1b58aa17e12e957252" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_2820974405350f9deb6d47bc0a3d3021.setContent(html_35da71c968e75b1b58aa17e12e957252);
+            
+        
+
+        marker_640873167605bb0489bf4d74a3462fdc.bindPopup(popup_2820974405350f9deb6d47bc0a3d3021)
+        ;
+
+        
+    
+    
+            marker_640873167605bb0489bf4d74a3462fdc.bindTooltip(
+                `<div>
+                     Sao Pedro Dias, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9218e60f77ab0a11dcc5ee6e9dd6278 = L.marker(
+                [29.8684624, 31.2168246],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_a17f1d896b767db58e062cfe311cf9e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_814cf70348d5f749ce11a4ececa375da = $(`<div id="html_814cf70348d5f749ce11a4ececa375da" style="width: 100.0%; height: 100.0%;">Pyramid, Royal Graveyard</div>`)[0];
+                popup_a17f1d896b767db58e062cfe311cf9e8.setContent(html_814cf70348d5f749ce11a4ececa375da);
+            
+        
+
+        marker_e9218e60f77ab0a11dcc5ee6e9dd6278.bindPopup(popup_a17f1d896b767db58e062cfe311cf9e8)
+        ;
+
+        
+    
+    
+            marker_e9218e60f77ab0a11dcc5ee6e9dd6278.bindTooltip(
+                `<div>
+                     Saqqara, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a878bde6079bad8b82d518c865dcfb2c = L.marker(
+                [40.1208752, 9.012892599999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_ec0d6f986b29703e43e5949de9557266 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db52aaaca3bf5e299ef2857e736f1c91 = $(`<div id="html_db52aaaca3bf5e299ef2857e736f1c91" style="width: 100.0%; height: 100.0%;">Giant's Graves, Nuraghi</div>`)[0];
+                popup_ec0d6f986b29703e43e5949de9557266.setContent(html_db52aaaca3bf5e299ef2857e736f1c91);
+            
+        
+
+        marker_a878bde6079bad8b82d518c865dcfb2c.bindPopup(popup_ec0d6f986b29703e43e5949de9557266)
+        ;
+
+        
+    
+    
+            marker_a878bde6079bad8b82d518c865dcfb2c.bindTooltip(
+                `<div>
+                     Sardinia, Italy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78d9507029919723338518b6a56c55f3 = L.marker(
+                [-9.189967, -75.015152],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_d5430c4c838cbea6308649ca5afa442d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbe3900634f318d7467ca68c0d69fda0 = $(`<div id="html_bbe3900634f318d7467ca68c0d69fda0" style="width: 100.0%; height: 100.0%;">Casma Valley Complex</div>`)[0];
+                popup_d5430c4c838cbea6308649ca5afa442d.setContent(html_bbe3900634f318d7467ca68c0d69fda0);
+            
+        
+
+        marker_78d9507029919723338518b6a56c55f3.bindPopup(popup_d5430c4c838cbea6308649ca5afa442d)
+        ;
+
+        
+    
+    
+            marker_78d9507029919723338518b6a56c55f3.bindTooltip(
+                `<div>
+                     Sechin Complex, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d332982ac3e036f381e667a3d6e9cbb5 = L.marker(
+                [39.0252414, -83.43019819999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_ad097df18b39aa15350301e32a2e9bcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a931e4c5339de15d13aab72eb5500bd = $(`<div id="html_4a931e4c5339de15d13aab72eb5500bd" style="width: 100.0%; height: 100.0%;">Serpent Mound Earhwork</div>`)[0];
+                popup_ad097df18b39aa15350301e32a2e9bcd.setContent(html_4a931e4c5339de15d13aab72eb5500bd);
+            
+        
+
+        marker_d332982ac3e036f381e667a3d6e9cbb5.bindPopup(popup_ad097df18b39aa15350301e32a2e9bcd)
+        ;
+
+        
+    
+    
+            marker_d332982ac3e036f381e667a3d6e9cbb5.bindTooltip(
+                `<div>
+                     Serpent Mound, USA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_629e9c31606afd1b83d45e21558c166b = L.marker(
+                [36.831651, 44.22104359999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2fc0ad7b482ccef9e1b539c0847efc8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26251487e4c5718967df9acf8e51da08 = $(`<div id="html_26251487e4c5718967df9acf8e51da08" style="width: 100.0%; height: 100.0%;">Neanderthal to Present</div>`)[0];
+                popup_2fc0ad7b482ccef9e1b539c0847efc8b.setContent(html_26251487e4c5718967df9acf8e51da08);
+            
+        
+
+        marker_629e9c31606afd1b83d45e21558c166b.bindPopup(popup_2fc0ad7b482ccef9e1b539c0847efc8b)
+        ;
+
+        
+    
+    
+            marker_629e9c31606afd1b83d45e21558c166b.bindTooltip(
+                `<div>
+                     Shanidar Cave, Iraq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34de17c0e192e930080a4b65bd4e2759 = L.marker(
+                [51.4157321, -1.8574235],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_6cc7d521d116acd52d93bfa682684850 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8e1a8e3fe32d777d9d04840f449311c = $(`<div id="html_c8e1a8e3fe32d777d9d04840f449311c" style="width: 100.0%; height: 100.0%;">Largest European Pyramid</div>`)[0];
+                popup_6cc7d521d116acd52d93bfa682684850.setContent(html_c8e1a8e3fe32d777d9d04840f449311c);
+            
+        
+
+        marker_34de17c0e192e930080a4b65bd4e2759.bindPopup(popup_6cc7d521d116acd52d93bfa682684850)
+        ;
+
+        
+    
+    
+            marker_34de17c0e192e930080a4b65bd4e2759.bindTooltip(
+                `<div>
+                     Silbury Hill, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_162033a7f9e83bb36a48b3c3e0a81d09 = L.marker(
+                [59.0488031, -3.3417332],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_bfd87aeccde5278d931595576fcc5679 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b152603286903eeeedfa11914195f2f = $(`<div id="html_3b152603286903eeeedfa11914195f2f" style="width: 100.0%; height: 100.0%;">Prehistoric Settlement</div>`)[0];
+                popup_bfd87aeccde5278d931595576fcc5679.setContent(html_3b152603286903eeeedfa11914195f2f);
+            
+        
+
+        marker_162033a7f9e83bb36a48b3c3e0a81d09.bindPopup(popup_bfd87aeccde5278d931595576fcc5679)
+        ;
+
+        
+    
+    
+            marker_162033a7f9e83bb36a48b3c3e0a81d09.bindTooltip(
+                `<div>
+                     Skara Brae, Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a69e3392dee1340e970671cd8810aa9 = L.marker(
+                [29.9752687, 31.1375674],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_90450fe7f94558f4875b2cb1d1d7f5ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88b467ce49d49c5a3598338089783f90 = $(`<div id="html_88b467ce49d49c5a3598338089783f90" style="width: 100.0%; height: 100.0%;">Watcher of the Rising sun</div>`)[0];
+                popup_90450fe7f94558f4875b2cb1d1d7f5ca.setContent(html_88b467ce49d49c5a3598338089783f90);
+            
+        
+
+        marker_0a69e3392dee1340e970671cd8810aa9.bindPopup(popup_90450fe7f94558f4875b2cb1d1d7f5ca)
+        ;
+
+        
+    
+    
+            marker_0a69e3392dee1340e970671cd8810aa9.bindTooltip(
+                `<div>
+                     Sphinx, Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6ed0811c2a18ad94640f105e19e186a = L.marker(
+                [58.9940314, -3.2080364],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_03681fc3bfaaa466d034126ed4d40b51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ef1f4edb5cc01d01621fa44d936d1b0 = $(`<div id="html_2ef1f4edb5cc01d01621fa44d936d1b0" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_03681fc3bfaaa466d034126ed4d40b51.setContent(html_2ef1f4edb5cc01d01621fa44d936d1b0);
+            
+        
+
+        marker_d6ed0811c2a18ad94640f105e19e186a.bindPopup(popup_03681fc3bfaaa466d034126ed4d40b51)
+        ;
+
+        
+    
+    
+            marker_d6ed0811c2a18ad94640f105e19e186a.bindTooltip(
+                `<div>
+                     Stennes Stones, Scotland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59eeb9c6cdc2c7046f3f834ef3b19f7d = L.marker(
+                [51.17888199999999, -1.826215],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_9458d2d06a27996db0e7254b70a53984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7c6258a19629e10ce7d6567f338ea73 = $(`<div id="html_f7c6258a19629e10ce7d6567f338ea73" style="width: 100.0%; height: 100.0%;">Henge-Circle</div>`)[0];
+                popup_9458d2d06a27996db0e7254b70a53984.setContent(html_f7c6258a19629e10ce7d6567f338ea73);
+            
+        
+
+        marker_59eeb9c6cdc2c7046f3f834ef3b19f7d.bindPopup(popup_9458d2d06a27996db0e7254b70a53984)
+        ;
+
+        
+    
+    
+            marker_59eeb9c6cdc2c7046f3f834ef3b19f7d.bindTooltip(
+                `<div>
+                     Stonehenge, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ded2a676769b5617e3b14f99579559f3 = L.marker(
+                [52.3555177, -1.1743197],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2fde0d621b6deda8c520b5f771b5a1b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7fea6110751489d3c680c2123fd3bb9 = $(`<div id="html_a7fea6110751489d3c680c2123fd3bb9" style="width: 100.0%; height: 100.0%;">Alignment</div>`)[0];
+                popup_2fde0d621b6deda8c520b5f771b5a1b9.setContent(html_a7fea6110751489d3c680c2123fd3bb9);
+            
+        
+
+        marker_ded2a676769b5617e3b14f99579559f3.bindPopup(popup_2fde0d621b6deda8c520b5f771b5a1b9)
+        ;
+
+        
+    
+    
+            marker_ded2a676769b5617e3b14f99579559f3.bindTooltip(
+                `<div>
+                     St Michael's Leyline, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5285ff3713ea08f43ad0df983876c2c0 = L.marker(
+                [48.7792722, -3.5444921],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_5070c8dcefb5c0fdd160640786b2dd46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b96f766764303c02ab44d32929f0bfd = $(`<div id="html_3b96f766764303c02ab44d32929f0bfd" style="width: 100.0%; height: 100.0%;">Christianised Menhir</div>`)[0];
+                popup_5070c8dcefb5c0fdd160640786b2dd46.setContent(html_3b96f766764303c02ab44d32929f0bfd);
+            
+        
+
+        marker_5285ff3713ea08f43ad0df983876c2c0.bindPopup(popup_5070c8dcefb5c0fdd160640786b2dd46)
+        ;
+
+        
+    
+    
+            marker_5285ff3713ea08f43ad0df983876c2c0.bindTooltip(
+                `<div>
+                     St Uzec, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c4e11a4bc3865e9780d72878080e9db = L.marker(
+                [43.7835165, 4.2018723],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e0e6a3fc68bd5a308775590d2f778e5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5654cf4f7006c19791d6fd082bfa863 = $(`<div id="html_e5654cf4f7006c19791d6fd082bfa863" style="width: 100.0%; height: 100.0%;">Passage mound</div>`)[0];
+                popup_e0e6a3fc68bd5a308775590d2f778e5f.setContent(html_e5654cf4f7006c19791d6fd082bfa863);
+            
+        
+
+        marker_2c4e11a4bc3865e9780d72878080e9db.bindPopup(popup_e0e6a3fc68bd5a308775590d2f778e5f)
+        ;
+
+        
+    
+    
+            marker_2c4e11a4bc3865e9780d72878080e9db.bindTooltip(
+                `<div>
+                     Table  des Marchands, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c1f7cf873a31415f222416a9846a3f0 = L.marker(
+                [39.39987199999999, -8.224454],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_3d7cf7cbb107dccf32a7e25165a87464 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f255d35fcd5452662795326b471023a = $(`<div id="html_7f255d35fcd5452662795326b471023a" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_3d7cf7cbb107dccf32a7e25165a87464.setContent(html_7f255d35fcd5452662795326b471023a);
+            
+        
+
+        marker_8c1f7cf873a31415f222416a9846a3f0.bindPopup(popup_3d7cf7cbb107dccf32a7e25165a87464)
+        ;
+
+        
+    
+    
+            marker_8c1f7cf873a31415f222416a9846a3f0.bindTooltip(
+                `<div>
+                     Tapadao, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_306ccda9b8dc9854f227120c8593c966 = L.marker(
+                [52.6982905, -6.2195896],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_7baa72f1640a45f95f42e327dc4b2153 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_318af17c58a51a7785835690bcd028db = $(`<div id="html_318af17c58a51a7785835690bcd028db" style="width: 100.0%; height: 100.0%;">Megalithic Complex</div>`)[0];
+                popup_7baa72f1640a45f95f42e327dc4b2153.setContent(html_318af17c58a51a7785835690bcd028db);
+            
+        
+
+        marker_306ccda9b8dc9854f227120c8593c966.bindPopup(popup_7baa72f1640a45f95f42e327dc4b2153)
+        ;
+
+        
+    
+    
+            marker_306ccda9b8dc9854f227120c8593c966.bindTooltip(
+                `<div>
+                     Tara Hill, Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e7b33af5fd8d4120baac98c2dc90dfa = L.marker(
+                [35.8668509, 14.5124736],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_734bc304523812d5c24cdcb154c1777b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e413e8f495211c0c171f535c84671fb7 = $(`<div id="html_e413e8f495211c0c171f535c84671fb7" style="width: 100.0%; height: 100.0%;">Temple Complex</div>`)[0];
+                popup_734bc304523812d5c24cdcb154c1777b.setContent(html_e413e8f495211c0c171f535c84671fb7);
+            
+        
+
+        marker_7e7b33af5fd8d4120baac98c2dc90dfa.bindPopup(popup_734bc304523812d5c24cdcb154c1777b)
+        ;
+
+        
+    
+    
+            marker_7e7b33af5fd8d4120baac98c2dc90dfa.bindTooltip(
+                `<div>
+                     Tarxien, Malta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79ac560aecccc95e111050e1461430fe = L.marker(
+                [19.4326077, -99.133208],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_98a681045dc6972d4a50f280063e2365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c572cef87dcf2d50dfca031e624e2e95 = $(`<div id="html_c572cef87dcf2d50dfca031e624e2e95" style="width: 100.0%; height: 100.0%;">Aztec Capital</div>`)[0];
+                popup_98a681045dc6972d4a50f280063e2365.setContent(html_c572cef87dcf2d50dfca031e624e2e95);
+            
+        
+
+        marker_79ac560aecccc95e111050e1461430fe.bindPopup(popup_98a681045dc6972d4a50f280063e2365)
+        ;
+
+        
+    
+    
+            marker_79ac560aecccc95e111050e1461430fe.bindTooltip(
+                `<div>
+                     Tenochtitlan, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c8acecabce7c2f80b783c3abab462ce = L.marker(
+                [19.6860799, -98.87163609999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_382f5f4fccbf9ac1433637d38aa942b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2da0ddb56ea67d1cf22d7563125f8328 = $(`<div id="html_2da0ddb56ea67d1cf22d7563125f8328" style="width: 100.0%; height: 100.0%;">Pyramid Complex</div>`)[0];
+                popup_382f5f4fccbf9ac1433637d38aa942b4.setContent(html_2da0ddb56ea67d1cf22d7563125f8328);
+            
+        
+
+        marker_1c8acecabce7c2f80b783c3abab462ce.bindPopup(popup_382f5f4fccbf9ac1433637d38aa942b4)
+        ;
+
+        
+    
+    
+            marker_1c8acecabce7c2f80b783c3abab462ce.bindTooltip(
+                `<div>
+                     Teotihuacan, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8677c457f2b4b6033c8aa4f14447dc9 = L.marker(
+                [51.9957988, -0.9156127000000001],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_eacded84e0734018b73d136e7fb4862a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5b4ab261161370464d4863eac8e4e5c = $(`<div id="html_e5b4ab261161370464d4863eac8e4e5c" style="width: 100.0%; height: 100.0%;">Triple Henge Complex</div>`)[0];
+                popup_eacded84e0734018b73d136e7fb4862a.setContent(html_e5b4ab261161370464d4863eac8e4e5c);
+            
+        
+
+        marker_f8677c457f2b4b6033c8aa4f14447dc9.bindPopup(popup_eacded84e0734018b73d136e7fb4862a)
+        ;
+
+        
+    
+    
+            marker_f8677c457f2b4b6033c8aa4f14447dc9.bindTooltip(
+                `<div>
+                     Thornborough, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5376625fc03e3bda764153f2d328975 = L.marker(
+                [-16.5542097, -68.67823589999999],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_eb1e45581f2bfdaa34adcca07f76886d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a35d635c15ec0d76481d2280c27810ad = $(`<div id="html_a35d635c15ec0d76481d2280c27810ad" style="width: 100.0%; height: 100.0%;">Pyramid Complex</div>`)[0];
+                popup_eb1e45581f2bfdaa34adcca07f76886d.setContent(html_a35d635c15ec0d76481d2280c27810ad);
+            
+        
+
+        marker_f5376625fc03e3bda764153f2d328975.bindPopup(popup_eb1e45581f2bfdaa34adcca07f76886d)
+        ;
+
+        
+    
+    
+            marker_f5376625fc03e3bda764153f2d328975.bindTooltip(
+                `<div>
+                     Tiahuanaco, Bolivia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4ee00065323b3537759107861d44aa8 = L.marker(
+                [2.5706299, -76.0364038],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_7cc728868ddc86787d8ecd310aeb949d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a34589a0796072e48b998887abdf783a = $(`<div id="html_a34589a0796072e48b998887abdf783a" style="width: 100.0%; height: 100.0%;">Pre-Columbian Hypogea</div>`)[0];
+                popup_7cc728868ddc86787d8ecd310aeb949d.setContent(html_a34589a0796072e48b998887abdf783a);
+            
+        
+
+        marker_f4ee00065323b3537759107861d44aa8.bindPopup(popup_7cc728868ddc86787d8ecd310aeb949d)
+        ;
+
+        
+    
+    
+            marker_f4ee00065323b3537759107861d44aa8.bindTooltip(
+                `<div>
+                     Tierradentro, Colombia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6b09979c1313cc21f1cc286389ebd99 = L.marker(
+                [18.4678181, -95.4374972],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_0adf0ca8d8fb822d6aedd3d5172bbd6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8437fd87e097714e3c88e7670395df8b = $(`<div id="html_8437fd87e097714e3c88e7670395df8b" style="width: 100.0%; height: 100.0%;">Olmec Capital</div>`)[0];
+                popup_0adf0ca8d8fb822d6aedd3d5172bbd6b.setContent(html_8437fd87e097714e3c88e7670395df8b);
+            
+        
+
+        marker_f6b09979c1313cc21f1cc286389ebd99.bindPopup(popup_0adf0ca8d8fb822d6aedd3d5172bbd6b)
+        ;
+
+        
+    
+    
+            marker_f6b09979c1313cc21f1cc286389ebd99.bindTooltip(
+                `<div>
+                     Tres Zapotes, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3483a3d2147c510fc12be35b9ddcd9ea = L.marker(
+                [38.963745, 35.243322],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_e26fcb4b52e0130c531f2e6d9ea66055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9a498b532538f7bec059ba4611cf479 = $(`<div id="html_e9a498b532538f7bec059ba4611cf479" style="width: 100.0%; height: 100.0%;">City Complex</div>`)[0];
+                popup_e26fcb4b52e0130c531f2e6d9ea66055.setContent(html_e9a498b532538f7bec059ba4611cf479);
+            
+        
+
+        marker_3483a3d2147c510fc12be35b9ddcd9ea.bindPopup(popup_e26fcb4b52e0130c531f2e6d9ea66055)
+        ;
+
+        
+    
+    
+            marker_3483a3d2147c510fc12be35b9ddcd9ea.bindTooltip(
+                `<div>
+                     Troy, Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b535aa8b3f9448d5b4d888ef6e07f7fb = L.marker(
+                [20.0673993, -99.3330479],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_b84f7c72ecd42687de8da902a509aeb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c433431672bcf42edf6e87acc0db11d7 = $(`<div id="html_c433431672bcf42edf6e87acc0db11d7" style="width: 100.0%; height: 100.0%;">Toltec Capital</div>`)[0];
+                popup_b84f7c72ecd42687de8da902a509aeb5.setContent(html_c433431672bcf42edf6e87acc0db11d7);
+            
+        
+
+        marker_b535aa8b3f9448d5b4d888ef6e07f7fb.bindPopup(popup_b84f7c72ecd42687de8da902a509aeb5)
+        ;
+
+        
+    
+    
+            marker_b535aa8b3f9448d5b4d888ef6e07f7fb.bindTooltip(
+                `<div>
+                     Tula (Tollan), Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e88cda59ed6f02bdb49bd30111114e6 = L.marker(
+                [33.223191, 43.679291],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_eb6d0571491f3f23ae7c274effd03d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5ae6b5102c115672c91fd42a778123b = $(`<div id="html_d5ae6b5102c115672c91fd42a778123b" style="width: 100.0%; height: 100.0%;">Sumerian Capital, Ziggurat of Ur</div>`)[0];
+                popup_eb6d0571491f3f23ae7c274effd03d59.setContent(html_d5ae6b5102c115672c91fd42a778123b);
+            
+        
+
+        marker_3e88cda59ed6f02bdb49bd30111114e6.bindPopup(popup_eb6d0571491f3f23ae7c274effd03d59)
+        ;
+
+        
+    
+    
+            marker_3e88cda59ed6f02bdb49bd30111114e6.bindTooltip(
+                `<div>
+                     Ur, Iraq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ef2553301206c2f0267216842aa192e = L.marker(
+                [45.9547457, 10.2893302],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2858fc5c1b233f92afdb3defbf2a6c99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_096cdb2d35af1b3ea4d64793c6710e77 = $(`<div id="html_096cdb2d35af1b3ea4d64793c6710e77" style="width: 100.0%; height: 100.0%;">Most Rock art in Europe</div>`)[0];
+                popup_2858fc5c1b233f92afdb3defbf2a6c99.setContent(html_096cdb2d35af1b3ea4d64793c6710e77);
+            
+        
+
+        marker_2ef2553301206c2f0267216842aa192e.bindPopup(popup_2858fc5c1b233f92afdb3defbf2a6c99)
+        ;
+
+        
+    
+    
+            marker_2ef2553301206c2f0267216842aa192e.bindTooltip(
+                `<div>
+                     Val Camonica, Italy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e149cfa076ff028c98308b0cb435711 = L.marker(
+                [44.7672958, 20.6107415],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_a4d10d770643e080816acc211c62910d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52d75e2b1455d539ad4827777608c55a = $(`<div id="html_52d75e2b1455d539ad4827777608c55a" style="width: 100.0%; height: 100.0%;">Old Europe</div>`)[0];
+                popup_a4d10d770643e080816acc211c62910d.setContent(html_52d75e2b1455d539ad4827777608c55a);
+            
+        
+
+        marker_0e149cfa076ff028c98308b0cb435711.bindPopup(popup_a4d10d770643e080816acc211c62910d)
+        ;
+
+        
+    
+    
+            marker_0e149cfa076ff028c98308b0cb435711.bindTooltip(
+                `<div>
+                     Vinca, Serbia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0e8facd66eab3e96f760f11aee29000 = L.marker(
+                [51.9101838, -0.457963],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_6d251d2a06bfb40be79b56d856d0b779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2285b6481cc0ef30e127b41960d4ae95 = $(`<div id="html_2285b6481cc0ef30e127b41960d4ae95" style="width: 100.0%; height: 100.0%;">Henge, Source of Avon</div>`)[0];
+                popup_6d251d2a06bfb40be79b56d856d0b779.setContent(html_2285b6481cc0ef30e127b41960d4ae95);
+            
+        
+
+        marker_e0e8facd66eab3e96f760f11aee29000.bindPopup(popup_6d251d2a06bfb40be79b56d856d0b779)
+        ;
+
+        
+    
+    
+            marker_e0e8facd66eab3e96f760f11aee29000.bindTooltip(
+                `<div>
+                     Waulud's Bank, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4225e6ff031b59ae55c95e50d313ec3e = L.marker(
+                [50.32612, 5.53048],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2d861357f4172e7261bc27220909c48e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3b11d2adf031946d144b5429ffdf4a2 = $(`<div id="html_c3b11d2adf031946d144b5429ffdf4a2" style="width: 100.0%; height: 100.0%;">Megalithic Concentration</div>`)[0];
+                popup_2d861357f4172e7261bc27220909c48e.setContent(html_c3b11d2adf031946d144b5429ffdf4a2);
+            
+        
+
+        marker_4225e6ff031b59ae55c95e50d313ec3e.bindPopup(popup_2d861357f4172e7261bc27220909c48e)
+        ;
+
+        
+    
+    
+            marker_4225e6ff031b59ae55c95e50d313ec3e.bindTooltip(
+                `<div>
+                     Weris, Belgium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65fd6f284ae9a54b3651c07c8e70903c = L.marker(
+                [51.42945599999999, -1.853046],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_698e489f2608f84a179d2ee490c26890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_155cc692d781d00cef764dd183f152c7 = $(`<div id="html_155cc692d781d00cef764dd183f152c7" style="width: 100.0%; height: 100.0%;">Long-Barrow</div>`)[0];
+                popup_698e489f2608f84a179d2ee490c26890.setContent(html_155cc692d781d00cef764dd183f152c7);
+            
+        
+
+        marker_65fd6f284ae9a54b3651c07c8e70903c.bindPopup(popup_698e489f2608f84a179d2ee490c26890)
+        ;
+
+        
+    
+    
+            marker_65fd6f284ae9a54b3651c07c8e70903c.bindTooltip(
+                `<div>
+                     West Kennet, England
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61c02fca6c85234fe21767b84c9c915d = L.marker(
+                [52.0212114, -2.3510429],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_2f353c751f89f11e9fb45aa6ec642f7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8d5739a0c516d803310a0f200a71d71 = $(`<div id="html_f8d5739a0c516d803310a0f200a71d71" style="width: 100.0%; height: 100.0%;">Centre of 'Great Decagon'</div>`)[0];
+                popup_2f353c751f89f11e9fb45aa6ec642f7c.setContent(html_f8d5739a0c516d803310a0f200a71d71);
+            
+        
+
+        marker_61c02fca6c85234fe21767b84c9c915d.bindPopup(popup_2f353c751f89f11e9fb45aa6ec642f7c)
+        ;
+
+        
+    
+    
+            marker_61c02fca6c85234fe21767b84c9c915d.bindTooltip(
+                `<div>
+                     Whiteleaved Oak, Wales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6761e85864e6fb9fdced1a83a9c277b = L.marker(
+                [36.0463889, 14.2648611],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_b880c78823395c6e5b92a9732c1e4ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ac699304b24345f90dad18d96983935 = $(`<div id="html_6ac699304b24345f90dad18d96983935" style="width: 100.0%; height: 100.0%;">Stone Circle</div>`)[0];
+                popup_b880c78823395c6e5b92a9732c1e4ed0.setContent(html_6ac699304b24345f90dad18d96983935);
+            
+        
+
+        marker_d6761e85864e6fb9fdced1a83a9c277b.bindPopup(popup_b880c78823395c6e5b92a9732c1e4ed0)
+        ;
+
+        
+    
+    
+            marker_d6761e85864e6fb9fdced1a83a9c277b.bindTooltip(
+                `<div>
+                     Xaghra circle, Malta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02eadf5f1f5bc421ec58b8e74ec00fee = L.marker(
+                [38.4442995, -7.380472500000001],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_46691c48e09ef5d8d09cc3d40e0f81b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1643e1ee6434514e2daa5d67e22a8848 = $(`<div id="html_1643e1ee6434514e2daa5d67e22a8848" style="width: 100.0%; height: 100.0%;">Stone Quadrant</div>`)[0];
+                popup_46691c48e09ef5d8d09cc3d40e0f81b9.setContent(html_1643e1ee6434514e2daa5d67e22a8848);
+            
+        
+
+        marker_02eadf5f1f5bc421ec58b8e74ec00fee.bindPopup(popup_46691c48e09ef5d8d09cc3d40e0f81b9)
+        ;
+
+        
+    
+    
+            marker_02eadf5f1f5bc421ec58b8e74ec00fee.bindTooltip(
+                `<div>
+                     Xarez, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d9a982936b5df42c1046ded023e32f6 = L.marker(
+                [40.2708184, -8.6276695],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_f1598174395de3347c05905fb23d7cad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f98876c1c773bfbf70791e6fd728793 = $(`<div id="html_6f98876c1c773bfbf70791e6fd728793" style="width: 100.0%; height: 100.0%;">Passage Mound</div>`)[0];
+                popup_f1598174395de3347c05905fb23d7cad.setContent(html_6f98876c1c773bfbf70791e6fd728793);
+            
+        
+
+        marker_6d9a982936b5df42c1046ded023e32f6.bindPopup(popup_f1598174395de3347c05905fb23d7cad)
+        ;
+
+        
+    
+    
+            marker_6d9a982936b5df42c1046ded023e32f6.bindTooltip(
+                `<div>
+                     Zambujeiro, Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b909afcfe4a338bff1d0c352f4f5e2ba = L.marker(
+                [30.9627548, 46.1031778],
+                {}
+            ).addTo(map_4fddf174bf0dd9ac1b90ba35618ad7de);
+        
+    
+        var popup_8a158e2b2d23a2afa184140b351b2b17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2522157e7612e7cc208155967683cdd8 = $(`<div id="html_2522157e7612e7cc208155967683cdd8" style="width: 100.0%; height: 100.0%;">Stepped Pyramid</div>`)[0];
+                popup_8a158e2b2d23a2afa184140b351b2b17.setContent(html_2522157e7612e7cc208155967683cdd8);
+            
+        
+
+        marker_b909afcfe4a338bff1d0c352f4f5e2ba.bindPopup(popup_8a158e2b2d23a2afa184140b351b2b17)
+        ;
+
+        
+    
+    
+            marker_b909afcfe4a338bff1d0c352f4f5e2ba.bindTooltip(
+                `<div>
+                     Ziggurat of Ur, Iraq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
